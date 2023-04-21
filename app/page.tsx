@@ -49,9 +49,9 @@ export default function Home() {
       </section>
 
       <main>
-        <section className='page1 relative flex justify-between'>
-          <div className='py-[140px]'>
-
+        <section className='page1 relative flex justify-center w-full'>
+          <div className='w-[1400px] py-[140px] flex justify-between'>
+            <h2>Tin tức - sự kiện</h2>
           </div>
         </section>
       </main>
