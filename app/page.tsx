@@ -12,7 +12,7 @@ export default function Home() {
       <header className="w-full bg-white justify-center flex">
         <div className="h-[71px] w-[1400px] justify-center flex items-center">
           <a className="mr-[88px]">
-            <Image src={'images/logo.png'} alt={''} width={228} height={40} />
+            <Image src={'img/logo.png'} alt={''} width={228} height={40} />
           </a>
           <nav className="flex items-center fontATM text-[17px] text-[#686868]">
             <a className="h-[100%] block uppercase text-[#686868]" href="#">
@@ -41,24 +41,19 @@ export default function Home() {
         {/* Slider main container */}
         <div className="swiper mySwiper">
           <div className="swiper-wrapper">
-            <div className="swiper-slide"></div>
-            <div className="swiper-slide">Slide 2</div>
-            <div className="swiper-slide">Slide 3</div>
-            <div className="swiper-slide">Slide 4</div>
-            <div className="swiper-slide">Slide 5</div>
-            <div className="swiper-slide">Slide 6</div>
-            <div className="swiper-slide">Slide 7</div>
-            <div className="swiper-slide">Slide 8</div>
-            <div className="swiper-slide">Slide 9</div>
+            <div className="swiper-slide"><Image src={'img/bg1.jpg'} alt='' width={1920} height={590} /></div>
+            <div className="swiper-slide"><Image src={'img/bg2.jpg'} alt='' width={1920} height={590} /></div>
           </div>
           <div className="swiper-pagination" />
         </div>
-
-
       </section>
 
       <main>
-        <div>11111111</div>
+        <section className='page1 relative flex justify-between'>
+          <div className='py-[140px]'>
+
+          </div>
+        </section>
       </main>
 
       <Script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></Script>
