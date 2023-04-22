@@ -83,7 +83,7 @@ export default function Home() {
               </div>
             </div>
             <div className="xl:w-[39.583vw] flex justify-center mb-[2.539vw] xl:mb-[0px]">
-              <div className="w-[54.688vw] h-[41.016vw] mySwiperContainer relative">
+              <div className="w-[29.167vw] h-[21.875vw] mySwiperContainer relative">
                 <div className="swiper mySwiper2 border-[#c44b57] border-[0.488vw]">
                   <div className="swiper-wrapper">
                     <div className="swiper-slide">
