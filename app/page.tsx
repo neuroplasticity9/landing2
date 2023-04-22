@@ -51,7 +51,7 @@ export default function Home() {
       <main>
         <section className="bgType1 relative flex justify-center w-full">
           <div className='w-[1400px] py-[140px] flex justify-between'>
-            <header className='flex'><span className='h-[47px] w-[25px] bg-[#b03a48] block'></span><h2 className='h-[47px] flex items-center bg-[#b03a48] ml-[12px] px-[30px]'>Tin tức - sự kiện</h2></header>
+            <header className='flex'><span className='h-[47px] w-[25px] bg-[#b03a48] block'></span><h2 className='h-[47px] flex items-center bg-[#b03a48] ml-[12px] px-[30px] text-[#fff] uppercase'>Tin tức - sự kiện</h2></header>
           </div>
         </section>
       </main>
