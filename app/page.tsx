@@ -14,11 +14,11 @@ export default function Home() {
         <div className="xl:h-[3.698vw] xl:w-[72.917vw] justify-center xl:justify-start flex items-center h-[13.672vw] group">
           <a className="xl:mr-[4.583vw] block">
             <picture>
-              <source media="(max-width: 1024px)" srcSet="img/logo-mobile.png" width={300} height={65} />
-              <img src="img/logo.png" alt="" width={228} height={40} />
+              <source media="(max-width: 1024px)" srcSet="img/logo-mobile.png" />
+              <img src="img/logo.png" alt="" width={228} height={40} className='xl:w-[11.875vw] xl:h-[2.083vw] w-[29.297vw] h-[6.348vw]' />
             </picture>
           </a>
-          <section className="xl:h-auto xl:w-[45.313vw] bg-white xl:static absolute left-0 top-0 z-50 group-[.activeMn]:h-[117.188vw] group-[.activeMn]:w-full">
+          <section className="xl:h-auto xl:w-[45.313vw] bg-white h-[13.672vw] xl:static  absolute left-0 top-0 z-50 group-[.activeMn]:h-[117.188vw] group-[.activeMn]:w-full">
             <a className="space-y-2 xl:hidden block w-[9.863vw] my-[3.516vw] ml-[3.906vw]">
               <span className="block w-[9.863vw] h-[1.172vw] bg-gray-600 rounded-full" />
               <span className="block w-[9.863vw] h-[1.172vw] bg-gray-600 rounded-full" />
@@ -53,10 +53,10 @@ export default function Home() {
         <div className="swiper mySwiper">
           <div className="swiper-wrapper">
             <div className="swiper-slide">
-              <Image src={'img/side1.jpg'} alt="" width={1920} height={590} />
+              <image src='img/side1.jpg' alt="" width="1920" height="590" />
             </div>
             <div className="swiper-slide">
-              <Image src={'img/side2.jpg'} alt="" width={1920} height={590} />
+              <image src='img/side2.jpg' alt="" width="1920" height="590" />
             </div>
           </div>
           <div className="swiper-pagination" />
@@ -87,10 +87,10 @@ export default function Home() {
                 <div className="swiper mySwiper2 border-[#c44b57] border-[0.488vw]">
                   <div className="swiper-wrapper">
                     <div className="swiper-slide">
-                      <Image src={'img/imgCenter1.jpg'} alt="" width={560} height={420} />
+                      <img src='img/imgCenter1.jpg' alt="" width="560" height="420" />
                     </div>
                     <div className="swiper-slide">
-                      <Image src={'img/imgCenter2.jpg'} alt="" width={560} height={420} />
+                      <img src='img/imgCenter2.jpg' alt="" width="560" height="420" />
                     </div>
                   </div>
                 </div>
