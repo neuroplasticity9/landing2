@@ -48,15 +48,15 @@ export default function Home() {
           </section>
         </div>
       </header>
-      <section className="h-[590px] bg-slate-300">
+      <section className="xl:h-[590px] h-[320px] bg-slate-300">
         {/* Slider main container */}
         <div className="swiper mySwiper">
           <div className="swiper-wrapper">
             <div className="swiper-slide">
-              <Image src={'img/bg1.jpg'} alt="" width={1920} height={590} />
+              <Image src={'img/side1.jpg'} alt="" width={1920} height={590} />
             </div>
             <div className="swiper-slide">
-              <Image src={'img/bg2.jpg'} alt="" width={1920} height={590} />
+              <Image src={'img/side2.jpg'} alt="" width={1920} height={590} />
             </div>
           </div>
           <div className="swiper-pagination" />
@@ -65,28 +65,37 @@ export default function Home() {
 
       <main>
         <section className="bgType1 relative flex justify-center w-full">
-          <div className="w-[1400px] py-[140px] flex justify-between flex-wrap">
-            <header className="flex">
-              <span className="h-[47px] w-[25px] bg-[#b03a48] block"></span>
-              <h2 className="h-[47px] flex items-center bg-[#b03a48] ml-[12px] px-[30px] text-[#fff] uppercase">Tin tức - sự kiện</h2>
-            </header>
-            <section className="pt-[40px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-              gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
-            </section>
-            <div className="w-[660px]">
-              {/* Slider main container */}
-              <div className="swiper mySwiper">
-                <div className="swiper-wrapper">
-                  <div className="swiper-slide">
-                    <Image src={'img/bg1.jpg'} alt="" width={1920} height={590} />
-                  </div>
-                  <div className="swiper-slide">
-                    <Image src={'img/bg2.jpg'} alt="" width={1920} height={590} />
+          <div className="xl:w-[1400px] xl:py-[140px] py-[30px] flex justify-between flex-wrap xl:flex-row flex-col-reverse">
+            <div className="xl:w-[calc(100%-760px)] justify-center xl:justify-start">
+              <header className="flex justify-center xl:justify-start">
+                <span className="h-[47px] w-[25px] bg-[#b03a48] xl:block hidden mr-[12px] "></span>
+                <h2 className="h-[47px] flex items-center bg-[#b03a48] px-[30px] text-[#fff] uppercase">Tin tức - sự kiện</h2>
+              </header>
+              <div className="pt-[40px] w-[70%] xl:w-auto mx-auto">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+                  ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                </p><br></br>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+                  ultrices gravida.
+                </p>
+              </div>
+            </div>
+            <div className="xl:w-[760px] flex justify-center mb-[26px] xl:mb-[0px]">
+              <div className="w-[560px] h-[420px] mySwiperContainer relative">
+                <div className="swiper mySwiper2 border-[#c44b57] border-[5px]">
+                  <div className="swiper-wrapper">
+                    <div className="swiper-slide">
+                      <Image src={'img/imgCenter1.jpg'} alt="" width={560} height={420} />
+                    </div>
+                    <div className="swiper-slide">
+                      <Image src={'img/imgCenter2.jpg'} alt="" width={560} height={420} />
+                    </div>
                   </div>
                 </div>
-                <div className="swiper-pagination" />
+                <div className="swiper-button-next"></div>
+                <div className="swiper-button-prev"></div>
               </div>
             </div>
           </div>
