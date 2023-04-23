@@ -155,7 +155,7 @@ export default function Home() {
         <section className="bgType1 areaBox">
           <div className="area3Zone">
             <div className="area3Box">
-              <header className="block">
+              <header className="area3Head">
                 <h2 className="area3Title fntPBold">Sản phẩm của chúng tôi</h2>
                 <div className="fntPRegular area3Text">Dưới đây là một số sản phẩm bán chạy nhất của chúng tôi.</div>
               </header>
@@ -163,7 +163,7 @@ export default function Home() {
                 <a className="productItem fntPBold">
                   <img src="img/thuoc1.jpg" alt="" width="178" height="178" />
                   <h3>CELLOFILL III COLLAGEN</h3>
-                  <div className='productBorder'>
+                  <div className="productBorder">
                     <span></span>
                     <img src="img/iconRo1.png" alt="" width="178" height="178" />
                     <span></span>
@@ -171,8 +171,8 @@ export default function Home() {
                 </a>
                 <a className="productItem fntPBold">
                   <img src="img/thuoc2.jpg" alt="" width="178" height="178" />
-                  <h3>CELLOFILL III COLLAGEN</h3>
-                  <div className='productBorder'>
+                  <h3>LAPUROON</h3>
+                  <div className="productBorder">
                     <span></span>
                     <img src="img/iconRo1.png" alt="" width="178" height="178" />
                     <span></span>
@@ -180,8 +180,8 @@ export default function Home() {
                 </a>
                 <a className="productItem fntPBold">
                   <img src="img/thuoc3.jpg" alt="" width="178" height="178" />
-                  <h3>CELLOFILL III COLLAGEN</h3>
-                  <div className='productBorder'>
+                  <h3>TINH CHẤT TẾ BÀO CUỐNG RỐN SCM</h3>
+                  <div className="productBorder">
                     <span></span>
                     <img src="img/iconRo1.png" alt="" width="178" height="178" />
                     <span></span>
@@ -189,8 +189,8 @@ export default function Home() {
                 </a>
                 <a className="productItem fntPBold">
                   <img src="img/thuoc4.jpg" alt="" width="178" height="178" />
-                  <h3>CELLOFILL III COLLAGEN</h3>
-                  <div className='productBorder'>
+                  <h3>TINH CHẤT NÂNG CƠ CHỐNG CHẢY XỆ CELLOFILL- CELLO UP</h3>
+                  <div className="productBorder">
                     <span></span>
                     <img src="img/iconRo1.png" alt="" width="178" height="178" />
                     <span></span>
@@ -198,8 +198,8 @@ export default function Home() {
                 </a>
                 <a className="productItem fntPBold">
                   <img src="img/thuoc5.jpg" alt="" width="178" height="178" />
-                  <h3>CELLOFILL III COLLAGEN</h3>
-                  <div className='productBorder'>
+                  <h3>TINH CHẤT TẾ BÀO GỐC EXOTOKINE DERMA BOOSTER AMPOUNE</h3>
+                  <div className="productBorder">
                     <span></span>
                     <img src="img/iconRo1.png" alt="" width="178" height="178" />
                     <span></span>
@@ -207,6 +207,15 @@ export default function Home() {
                 </a>
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* body part4  */}
+        <section className="bgType2 areaBox">
+          <div className="area4Zone">
+            <header className="area3Head">
+              <h2 className="area3Title fntPBold">Đối tác chiến lược</h2>
+            </header>
           </div>
         </section>
       </main>

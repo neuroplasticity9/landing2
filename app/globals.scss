@@ -262,40 +262,50 @@ body {
   @apply flex justify-center flex-wrap w-full;
 }
 
+.area3Head{
+  @apply xl:block flex justify-center flex-wrap;
+}
+
 .area3Title{
   @apply xl:h-[2.448vw] xl:px-[1.563vw] xl:text-[1.563vw] xl:mb-[1.667vw] mb-[16px] text-[2.056vw] px-[2.344vw] h-[3.255vw] inline-flex items-center content-center flex-wrap bg-[#b03a48]  text-[#fff] uppercase;
 }
 
 .area3Text {
-  @apply text-[1.563vw] xl:text-[1.042vw];
+  @apply text-[1.563vw] xl:text-[1.042vw] w-full text-center;
 }
 
 .listProducts {
-  @apply flex flex-wrap xl:justify-between justify-center items-center pt-[3.594vw] xl:w-full  w-[70%];
+  @apply flex flex-wrap xl:justify-between justify-center items-center pt-[3.594vw] xl:w-full w-[78.125vw];
 }
 
 .productItem {
-  @apply block justify-center flex-wrap xl:mb-0 mb-[3.906vw] xl:mx-0 mx-[3.255vw];
+  @apply xl:w-[12.5vw] w-[25.042vw] flex justify-center flex-wrap xl:mb-0 mb-[3.906vw] xl:mx-0;
   > img{
-    @apply bg-white xl:border-[2px] border-[#515254] xl:p-[0.677vw] xl:w-[9.271vw] xl:h-[9.271vw] p-[0.911vw] w-[16.406vw] h-[16.406vw] border-[1px];
+    @apply bg-white xl:border-[2px] border-[#515254] xl:p-[0.677vw] xl:w-[9.271vw] xl:h-[9.271vw] p-[0.911vw] w-[16.927vw] h-[16.927vw] border-[1px];
   }
   h3{
-    @apply text-center text-[0.649vw] xl:pt-[24px] xl:pb-[11px] pt-[24px] pb-[11px];
+    @apply w-full text-center xl:text-[0.649vw] text-[1.042vw] xl:h-[2.24vw] h-[5.599vw] flex justify-center items-center;
   }
 }
-.productItem:first-child{
-  @apply ml-[50px] xl:mx-0;
+
+.productItem:nth-child(1) {
+  @apply xl:ml-0 ml-[1.953vw];
 }
-.productItem:nth-child(2){
-  @apply mr-[50px] xl:mx-0;
+.productItem:nth-child(2) {
+  @apply xl:mr-0 mr-[1.953vw];
 }
 
 .productBorder {
   @apply flex justify-center items-center;
   span {
-    @apply xl:w-[60px] w-[35px] h-[1px] bg-[#b03a48];
+    @apply xl:w-[3.125vw] w-[4.557vw] h-[1px] bg-[#b03a48];
   }
   img{
-    @apply xl:w-[11px] xl:h-[12px] xl:mx-[6px] w-[8px] h-[10px] mx-[6px];
+    @apply xl:w-[0.573vw] xl:h-[0.625vw] xl:mx-[0.313vw] w-[1.042vw] h-[1.302vw] mx-[0.781vw];
   }
+}
+
+/** area 4 **/
+.area4Zone{
+  @apply xl:w-[72.917vw] xl:h-[17.708vw] xl:py-[2.188vw] py-[3.906vw] flex justify-center flex-wrap overflow-hidden;
 }
