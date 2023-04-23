@@ -362,3 +362,24 @@ body {
 .feedbackImg {
   @apply border-[#515254] border-[2px] bg-white p-[8px] absolute top-[-41px] left-[calc(50%-41px)];
 }
+
+.footer{
+  @apply flex items-center justify-center flex-wrap bg-gradient-to-b from-[#4b4b4b] to-[#252626];
+}
+.footerBox {
+  @apply w-[1400px] h-[440px] flex items-center justify-center flex-wrap;
+}
+
+.footerLogo{
+  @apply w-[310px];
+}
+
+.boxContact{
+  @apply flex justify-start flex-wrap  w-[600px] pl-[120px];
+}
+.contactItem {
+  @apply flex items-center text-white text-[22px] mb-[22px];
+  img{
+    @apply mr-[23px];
+  }
+}

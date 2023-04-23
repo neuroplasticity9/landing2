@@ -287,6 +287,28 @@ export default function Home() {
         </section>
       </main>
 
+      <footer className='footer'>
+        <div className='footerBox'>
+          <a className='footerLogo' href='#' title='Trang chu'><img src="img/logoFooter.png" width="310" height="200" alt="" /></a>
+          <div className='boxContact'>
+            <div className='contactItem fntPRegular'>
+              <img src="img/bt-phone.png" width="57px" height="57px" alt="" /> (+84) 1900 1234 5678
+            </div> 
+            <div className='contactItem fntPRegular'>
+              <img src="img/bt-phone.png" width="57px" height="57px" alt="" /> hotro@skinrosemary.vn
+            </div>
+            <div className='contactItem fntPRegular'>
+            
+              <img src="img/bt-hotline.png" width="57px" height="57px" alt="" /> https://hotro.skinrosemary.vn
+            </div>
+            <div className='contactItem fntPRegular'>
+            
+              <img src="img/bt-localtion.png" width="57px" height="57px" alt="" /> Số 169 Phố Thái Hà, Láng Hạ, Đống Đa, Hà Nội
+            </div>
+          </div>
+        </div>
+      </footer>
+
       <Script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></Script>
       <Script src="js/slide.js"></Script>
     </>
