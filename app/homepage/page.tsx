@@ -82,8 +82,53 @@ export default function Page() {
       </section>
 
       <main>
-        {/* body part 1  */}
+        {/* part special */}
         <section className="areaBox bgType1">
+          <div className='areaIntro'>
+            <div className='introItem'>
+              <div className='introBorder'>
+                <h3 className='fntPBold'><a href='#'>Về chúng tôi</a></h3>
+                <div className="productBorder"><span></span><img src="img/iconRo1.png" alt="" width="20" height="20" /><span></span></div>
+                <a className='introImg' href='#'><img src="img/imagePart2_2.jpg" width="245" height="245" alt="" /></a>
+                <div className='introTitle fntPLight'>Giới thiệu công ty</div>
+                <div className='introContent fntPLight'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+              </div>
+            </div>
+
+            <div className='introItem'>
+              <div className='introBorder'>
+                <h3 className='fntPBold'><a href='#'>Sản phẩm</a></h3>
+                <div className="productBorder"><span></span><img src="img/iconRo1.png" alt="" width="20" height="20" /><span></span></div>
+                <a className='introImg' href='#'><img src="img/imagePart2_2.jpg" width="245" height="245" alt="" /></a>
+                <div className='introTitle fntPLight'>Sản phẩm</div>
+                <div className='introContent fntPLight'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+              </div>
+            </div>
+
+            <div className='introItem'>
+              <div className='introBorder'>
+                <h3 className='fntPBold'><a href='#'>Đối tác</a></h3>
+                <div className="productBorder"><span></span><img src="img/iconRo1.png" alt="" width="20" height="20" /><span></span></div>
+                <a className='introImg' href='#'><img src="img/imagePart2_2.jpg" width="245" height="245" alt="" /></a>
+                <div className='introTitle fntPLight'>Đối tác</div>
+                <div className='introContent fntPLight'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+              </div>
+            </div>
+
+            <div className='introItem'>
+              <div className='introBorder'>
+                <h3 className='fntPBold'><a href='#'>Hình ảnh - Video</a></h3>
+                <div className="productBorder"><span></span><img src="img/iconRo1.png" alt="" width="20" height="20" /><span></span></div>
+                <a className='introImg' href='#'><img src="img/imagePart2_2.jpg" width="245" height="245" alt="" /></a>
+                <div className='introTitle fntPLight'>Giới thiệu công ty</div>
+                <div className='introContent fntPLight'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* body part 1  */}
+        <section className="areaBox bgType2">
           <div className="area1Inner">
             <div className="area1">
               <header className="area1Header">
@@ -124,7 +169,7 @@ export default function Page() {
 
         {/* body part2  */}
 
-        <section className="bgType2 areaBox">
+        <section className="bgType1 areaBox">
           <div className="aboutUsImg">
             <div className="aboutUsImg_content">
               <div className="sliderNewInner">

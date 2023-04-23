@@ -30,6 +30,15 @@
 }
 
 @font-face {
+  font-family: 'PLight';
+  src: url('/shopee2021-light.ttf');
+}
+
+.fntPLight {
+  font-family: 'PLight', sans-serif;
+}
+
+@font-face {
   font-family: 'FCong';
   src: url('/fonts/VL_Lovepen Regular.otf');
 }
@@ -382,4 +391,32 @@ body {
   img{
     @apply mr-[23px];
   }
+}
+
+/** New page**/
+.areaIntro {
+  @apply xl:h-[44.792vw] xl:w-[72.917vw] h-[44.792vw] w-full flex justify-between items-center flex-wrap;
+}
+.introItem {
+  @apply xl:w-[16.979vw] xl:h-[32.292vw] border-[2px] border-[#b33d4a] flex justify-center items-center flex-wrap;
+}
+.introBorder{
+  @apply xl:w-[15.625vw] xl:h-[30.625vw] border-[1px] border-[#b33d4a] pt-[30px];
+  h3{
+    @apply xl:text-[1.25vw] text-[#b33d4a] w-full text-center uppercase;
+  }
+  .productBorder {
+    @apply pt-[0.781vw] pb-[1.302vw];
+    img { @apply w-[0.729vw] h-[0.729vw]; }
+    span { @apply w-[5.70vw] h-[2px]; }
+  }
+}
+.introImg img{
+  @apply xl:w-[12.76vw] xl:h-[12.76vw] border-[1px] border-[#b33d4a] mx-auto;
+}
+.introTitle {
+  @apply xl:text-[0.781vw] text-center xl:pt-[1.458vw] xl:pb-[1.927vw];
+}
+.introContent {
+  @apply xl:text-[0.781vw] text-center xl:px-[1.302vw];
 }
