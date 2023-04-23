@@ -98,7 +98,7 @@ export default function Home() {
       <main>
         {/* body part 1  */}
         <section className="bgType1 relative flex justify-center w-full">
-          <div className="xl:w-[72.917vw] xl:py-[7.292vw] py-[3.907vw] flex justify-between flex-wrap xl:flex-row flex-col-reverse">
+          <div className="xl:w-[72.917vw]  xl:h-[37.5vw] xl:py-[7.292vw] py-[3.907vw] flex justify-between flex-wrap xl:flex-row flex-col-reverse overflow-hidden">
             <div className="xl:w-[calc(100%-39.583vw)] justify-center xl:justify-start">
               <header className="flex justify-center xl:justify-start">
                 <span className="xl:h-[2.448vw] xl:w-[1.302vw] xl:mr-[0.625vw] h-[47px] w-[25px] bg-[#b03a48] xl:block hidden"></span>
@@ -141,7 +141,7 @@ export default function Home() {
         {/* body part2  */}
 
         <section className="bgType2 relative flex justify-center w-full">
-          <div className="xl:w-[72.917vw] xl:h-[40.625vw] xl:py-[6.354vw] py-[3.906vw] flex justify-center flex-wrap">
+          <div className="xl:w-[72.917vw] xl:h-[40.469vw] xl:py-[6.354vw] py-[3.906vw] flex justify-center flex-wrap overflow-hidden">
             <div className="xl:w-[36.458vw] xl:justify-start flex justify-center mb-[26px] xl:mb-0 xl:relative">
               <img src="img/imagePart2_1.jpg" className='xl:w-[31.771vw] xl:h-[23.438vw] w-[61.458vw] h-auto border-[#b33c4a] border-[0.26vw] bg-white p-[1.042vw]' alt="" />
               <img src="img/imagePart2_2.jpg" className='xl:w-[13.698vw] xl:h-[13.698vw] absolute xl:top-[14.063vw] xl:left-[22.135vw] border-[#fff] border-[5px] z-10 hidden xl:block' alt="" />
@@ -163,6 +163,24 @@ export default function Home() {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
                   ultrices gravida.
                 </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* body part3  */}
+
+        <section className="bgType1 relative flex justify-center w-full">
+          <div className="xl:w-[72.917vw] xl:h-[37.5vw] xl:py-[7.5vw] py-[3.906vw] flex justify-center flex-wrap overflow-hidden">
+            <div className="xl:pt-[70px] justify-center">
+              <header className="block">
+                <h2 className="xl:h-[2.448vw] xl:px-[1.563vw] xl:text-[1.563vw] xl:mb-[1.667vw] mb-[16px] text-[2.056vw] px-[2.344vw] h-[3.255vw] flex items-center content-center flex-wrap bg-[#b03a48]  text-[#fff] uppercase fntPBold">
+                  Sản phẩm của chúng tôi
+                </h2>
+                <div className='fntPRegular xl:text-[1.042vw] text-[1.563vw]'>Dưới đây là một số sản phẩm bán chạy nhất của chúng tôi.</div>
+              </header>
+              <div className="xl:pt-[2.083vw] xl:mr-[1.85vw] xl:w-auto xl:text-right xl:pl-[90px] pt-[3.906vw] w-[70%]  mx-auto fntPRegular xl:text-[1.042vw] text-[1.563vw]">
+                
               </div>
             </div>
           </div>
