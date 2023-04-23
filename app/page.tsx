@@ -165,7 +165,7 @@ export default function Home() {
                   <h3>CELLOFILL III COLLAGEN</h3>
                   <div className="productBorder">
                     <span></span>
-                    <img src="img/iconRo1.png" alt="" width="178" height="178" />
+                    <img src="img/iconRo1.png" alt="" width="20" height="20" />
                     <span></span>
                   </div>
                 </a>
@@ -174,7 +174,7 @@ export default function Home() {
                   <h3>LAPUROON</h3>
                   <div className="productBorder">
                     <span></span>
-                    <img src="img/iconRo1.png" alt="" width="178" height="178" />
+                    <img src="img/iconRo1.png" alt="" width="20" height="20" />
                     <span></span>
                   </div>
                 </a>
@@ -183,7 +183,7 @@ export default function Home() {
                   <h3>TINH CHẤT TẾ BÀO CUỐNG RỐN SCM</h3>
                   <div className="productBorder">
                     <span></span>
-                    <img src="img/iconRo1.png" alt="" width="178" height="178" />
+                    <img src="img/iconRo1.png" alt="" width="20" height="20" />
                     <span></span>
                   </div>
                 </a>
@@ -192,7 +192,7 @@ export default function Home() {
                   <h3>TINH CHẤT NÂNG CƠ CHỐNG CHẢY XỆ CELLOFILL- CELLO UP</h3>
                   <div className="productBorder">
                     <span></span>
-                    <img src="img/iconRo1.png" alt="" width="178" height="178" />
+                    <img src="img/iconRo1.png" alt="" width="20" height="20" />
                     <span></span>
                   </div>
                 </a>
@@ -201,7 +201,7 @@ export default function Home() {
                   <h3>TINH CHẤT TẾ BÀO GỐC EXOTOKINE DERMA BOOSTER AMPOUNE</h3>
                   <div className="productBorder">
                     <span></span>
-                    <img src="img/iconRo1.png" alt="" width="178" height="178" />
+                    <img src="img/iconRo1.png" alt="" width="20" height="20" />
                     <span></span>
                   </div>
                 </a>
@@ -216,6 +216,44 @@ export default function Home() {
             <header className="area3Head">
               <h2 className="area3Title fntPBold">Đối tác chiến lược</h2>
             </header>
+            <div className="area4Box">
+              <div className="customerItem">
+                <img src="img/thuoc1.jpg" className="customerImg" alt="" width="152" height="152" />
+                <div className="customerName fntPBold">
+                  <span className='customerNameText'>Tên đối tác 1</span>
+                  <img src="img/iconRo1.png" alt="" width="20" height="20" />
+                  <span className="hideBg"></span>
+                  <span className="hideBg"></span>
+                </div>
+              </div>
+              <div className="customerItem">
+                <img src="img/thuoc1.jpg" className="customerImg" alt="" width="152" height="152" />
+                <div className="customerName fntPBold">
+                  <span className='customerNameText'>Tên đối tác 2</span>
+                  <img src="img/iconRo1.png" alt="" width="20" height="20" />
+                  <span className="hideBg"></span>
+                  <span className="hideBg"></span>
+                </div>
+              </div>
+              <div className="customerItem">
+                <img src="img/thuoc1.jpg" className="customerImg" alt="" width="152" height="152" />
+                <div className="customerName fntPBold">
+                  <span className='customerNameText'>Tên đối tác 3</span>
+                  <img src="img/iconRo1.png" alt="" width="20" height="20" />
+                  <span className="hideBg"></span>
+                  <span className="hideBg"></span>
+                </div>
+              </div>
+              <div className="customerItem">
+                <img src="img/thuoc1.jpg" className="customerImg" alt="" width="152" height="152" />
+                <div className="customerName fntPBold">
+                  <span className='customerNameText'>Tên đối tác 4</span>
+                  <img src="img/iconRo1.png" alt="" width="20" height="20" />
+                  <span className="hideBg"></span>
+                  <span className="hideBg"></span>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </main>

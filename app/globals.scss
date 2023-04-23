@@ -307,5 +307,33 @@ body {
 
 /** area 4 **/
 .area4Zone{
-  @apply xl:w-[72.917vw] xl:h-[17.708vw] xl:py-[2.188vw] py-[3.906vw] flex justify-center flex-wrap overflow-hidden;
+  @apply xl:w-[72.917vw] xl:h-[40.469vw] xl:py-[7.448vw] py-[3.906vw] flex justify-center flex-wrap overflow-hidden;
+  .area3Head{
+    @apply mb-[3.646vw];
+  }
+}
+
+.area4Box{
+  @apply flex justify-between flex-wrap w-full;
+}
+.customerItem {
+  @apply xl:w-[15.625vw] w-[152px];
+}
+.customerImg {
+  @apply xl:w-[263px] xl:h-[263px] xl:mb-[22px] w-[152px] h-[152px] xl:p-[0.677vw] border-[#b33c4a] border-[2px] bg-white rounded-full ;
+}
+.customerName{
+  @apply flex bg-white justify-center items-center relative  border-[#b33c4a] border-[1px];
+  img{
+    @apply absolute top-[-10px] left-[calc(50%-10px)] w-[14px] h-[16px];
+  }
+  .hideBg{
+    @apply  border-[#fbbec8] border-[1px] absolute top-[-1px] w-[10px] left-[calc(50%-20px)];
+  }
+  .hideBg:last-child{
+    @apply  left-[calc(50%+3px)];
+  }
+}
+.customerNameText {
+  @apply xl:text-[22px] text-[#b33c4a] xl:h-[53px] uppercase flex justify-center items-center; 
 }
