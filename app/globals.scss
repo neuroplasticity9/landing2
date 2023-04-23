@@ -258,9 +258,12 @@ body {
 .area3Zone{
   @apply xl:w-[72.917vw] xl:h-[37.5vw] xl:py-[7.5vw] py-[3.906vw] flex justify-center flex-wrap overflow-hidden;
 }
+.area3Box {
+  @apply flex justify-center flex-wrap w-full;
+}
 
 .area3Title{
-  @apply xl:h-[2.448vw] xl:px-[1.563vw] xl:text-[1.563vw] xl:mb-[1.667vw] mb-[16px] text-[2.056vw] px-[2.344vw] h-[3.255vw] flex items-center content-center flex-wrap bg-[#b03a48]  text-[#fff] uppercase;
+  @apply xl:h-[2.448vw] xl:px-[1.563vw] xl:text-[1.563vw] xl:mb-[1.667vw] mb-[16px] text-[2.056vw] px-[2.344vw] h-[3.255vw] inline-flex items-center content-center flex-wrap bg-[#b03a48]  text-[#fff] uppercase;
 }
 
 .area3Text {
@@ -268,7 +271,7 @@ body {
 }
 
 .listProducts {
-  @apply flex flex-wrap justify-center items-center pt-[3.594vw];
+  @apply flex flex-wrap justify-between items-center pt-[3.594vw] w-full;
 }
 .productItem {
   @apply block justify-center flex-wrap;

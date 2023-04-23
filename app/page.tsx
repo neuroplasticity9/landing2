@@ -169,6 +169,42 @@ export default function Home() {
                     <span></span>
                   </div>
                 </a>
+                <a className="productItem fntPBold">
+                  <img src="img/thuoc2.jpg" alt="" width="178" height="178" />
+                  <h3>CELLOFILL III COLLAGEN</h3>
+                  <div className='productBorder'>
+                    <span></span>
+                    <img src="img/iconRo1.png" alt="" width="178" height="178" />
+                    <span></span>
+                  </div>
+                </a>
+                <a className="productItem fntPBold">
+                  <img src="img/thuoc3.jpg" alt="" width="178" height="178" />
+                  <h3>CELLOFILL III COLLAGEN</h3>
+                  <div className='productBorder'>
+                    <span></span>
+                    <img src="img/iconRo1.png" alt="" width="178" height="178" />
+                    <span></span>
+                  </div>
+                </a>
+                <a className="productItem fntPBold">
+                  <img src="img/thuoc4.jpg" alt="" width="178" height="178" />
+                  <h3>CELLOFILL III COLLAGEN</h3>
+                  <div className='productBorder'>
+                    <span></span>
+                    <img src="img/iconRo1.png" alt="" width="178" height="178" />
+                    <span></span>
+                  </div>
+                </a>
+                <a className="productItem fntPBold">
+                  <img src="img/thuoc5.jpg" alt="" width="178" height="178" />
+                  <h3>CELLOFILL III COLLAGEN</h3>
+                  <div className='productBorder'>
+                    <span></span>
+                    <img src="img/iconRo1.png" alt="" width="178" height="178" />
+                    <span></span>
+                  </div>
+                </a>
               </div>
             </div>
           </div>
