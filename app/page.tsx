@@ -17,7 +17,7 @@ export default function Home() {
           <section className="navTop">
             {/* chỗ này menu humberg */}
             <div className="menuHumber">
-              <a href='#' className='menuArea'>
+              <a href="#" className="menuArea">
                 <span className="menuHumberLine" />
                 <span className="menuHumberLine" />
                 <span className="menuHumberLine" />
@@ -25,33 +25,23 @@ export default function Home() {
             </div>
             {/* chỗ này navtop */}
             <nav className="navLinkArea">
-              <a
-                className="navLink"
-                href="#">
+              <a className="navLink" href="#">
                 Tin tức sự kiện
               </a>
               <span className="navSpe">|</span>
-              <a
-                className="navLink"
-                href="#">
+              <a className="navLink" href="#">
                 Về chúng tôi
               </a>
               <span className="navSpe">|</span>
-              <a
-                className="navLink"
-                href="#">
+              <a className="navLink" href="#">
                 Sản phẩm
               </a>
               <span className="navSpe">|</span>
-              <a
-                className="navLink"
-                href="#">
+              <a className="navLink" href="#">
                 Đối tác
               </a>
               <span className="navSpe">|</span>
-              <a
-                className="navLink"
-                href="#">
+              <a className="navLink" href="#">
                 Liện hệ
               </a>
             </nav>
@@ -93,16 +83,14 @@ export default function Home() {
 
       <main>
         {/* body part 1  */}
-        <section className="area1Box bgType1">
+        <section className="areaBox bgType1">
           <div className="area1Inner">
             <div className="area1">
               <header className="area1Header">
-                <span className="areaIcon"></span>
-                <h2 className="areaHead">
-                  Tin tức - sự kiện
-                </h2>
+                <span className="area1Icon"></span>
+                <h2 className="area1Head fntPBold">Tin tức - sự kiện</h2>
               </header>
-              <div className="xl:pt-[2.083vw] xl:w-auto xl:pr-[30px] pt-[3.906vw] w-[70%]  mx-auto fntPRegular xl:text-[1.042vw] text-[1.563vw]">
+              <div className="area1Content fntPRegular">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
                   ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
@@ -112,12 +100,12 @@ export default function Home() {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
                   ultrices gravida.
                 </p>
-                <div className="xl:flex hidden fntFCong text-[3.646vw] py-[1.042vw]">Skin Rosemary</div>
+                <div className="specialText fntFCong">Skin Rosemary</div>
               </div>
             </div>
-            <div className="xl:w-[39.583vw] flex justify-center mb-[25.999px] xl:mb-[0px]">
-              <div className="xl:w-[29.167vw] xl:h-[21.875vw] w-[61.197vw] h-[45.573vw] mySwiperContainer relative">
-                <div className="swiper mySwiper2 border-[#c44b57] border-[0.488vw]">
+            <div className="sliderNew">
+              <div className="sliderNewInner">
+                <div className="swiper mySwiper2">
                   <div className="swiper-wrapper">
                     <div className="swiper-slide">
                       <img src="img/imgCenter1.jpg" alt="" width="560" height="420" />
@@ -136,20 +124,18 @@ export default function Home() {
 
         {/* body part2  */}
 
-        <section className="bgType2 relative flex justify-center w-full">
-          <div className="xl:w-[72.917vw] xl:h-[40.469vw] xl:py-[6.354vw] py-[3.906vw] flex justify-center flex-wrap overflow-hidden">
-            <div className="xl:w-[36.458vw] xl:justify-start flex justify-center mb-[26px] xl:mb-0 xl:relative">
-              <img src="img/imagePart2_1.jpg" className='xl:w-[31.771vw] xl:h-[23.438vw] w-[61.458vw] h-auto border-[#b33c4a] border-[0.26vw] bg-white p-[1.042vw]' alt="" />
-              <img src="img/imagePart2_2.jpg" className='xl:w-[13.698vw] xl:h-[13.698vw] absolute xl:top-[14.063vw] xl:left-[22.135vw] border-[#fff] border-[5px] z-10 hidden xl:block' alt="" />
+        <section className="bgType2 areaBox">
+          <div className="aboutUsImg">
+            <div className="aboutUsImg_content">
+              <img src="img/imagePart2_1.jpg" className="aboutUsImg_img1" alt="" />
+              <img src="img/imagePart2_2.jpg" className="aboutUsImg_img2" alt="" />
             </div>
-            <div className="xl:w-[calc(100%-36.458vw)] xl:justify-end xl:pt-[70px] justify-center">
-              <header className="flex justify-center xl:justify-end">
-                <h2 className="xl:h-[2.448vw] xl:px-[1.563vw] xl:text-[1.563vw] text-[2.056vw] px-[2.344vw] h-[3.255vw] flex items-center content-center flex-wrap bg-[#b03a48]  text-[#fff] uppercase fntPBold">
-                  Về chúng tôi
-                </h2>
-                <span className="xl:h-[2.448vw] xl:w-[1.302vw] xl:ml-[0.625vw] h-[47px] w-[25px] bg-[#b03a48] xl:block hidden"></span>
+            <div className="area2Head">
+              <header className="area2HeadContent">
+                <h2 className="area2Text fntPBold">Về chúng tôi</h2>
+                <span className="area2Icon"></span>
               </header>
-              <div className="xl:pt-[2.083vw] xl:mr-[1.85vw] xl:w-auto xl:text-right xl:pl-[90px] pt-[3.906vw] w-[70%]  mx-auto fntPRegular xl:text-[1.042vw] text-[1.563vw]">
+              <div className="area2Content">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
                   ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
@@ -166,17 +152,23 @@ export default function Home() {
 
         {/* body part3  */}
 
-        <section className="bgType1 relative flex justify-center w-full">
-          <div className="xl:w-[72.917vw] xl:h-[37.5vw] xl:py-[7.5vw] py-[3.906vw] flex justify-center flex-wrap overflow-hidden">
-            <div className="xl:pt-[70px] justify-center">
+        <section className="bgType1 areaBox">
+          <div className="area3Zone">
+            <div className="area3Box">
               <header className="block">
-                <h2 className="xl:h-[2.448vw] xl:px-[1.563vw] xl:text-[1.563vw] xl:mb-[1.667vw] mb-[16px] text-[2.056vw] px-[2.344vw] h-[3.255vw] flex items-center content-center flex-wrap bg-[#b03a48]  text-[#fff] uppercase fntPBold">
-                  Sản phẩm của chúng tôi
-                </h2>
-                <div className='fntPRegular xl:text-[1.042vw] text-[1.563vw]'>Dưới đây là một số sản phẩm bán chạy nhất của chúng tôi.</div>
+                <h2 className="area3Title fntPBold">Sản phẩm của chúng tôi</h2>
+                <div className="fntPRegular area3Text">Dưới đây là một số sản phẩm bán chạy nhất của chúng tôi.</div>
               </header>
-              <div className="xl:pt-[2.083vw] xl:mr-[1.85vw] xl:w-auto xl:text-right xl:pl-[90px] pt-[3.906vw] w-[70%]  mx-auto fntPRegular xl:text-[1.042vw] text-[1.563vw]">
-                
+              <div className="listProducts">
+                <a className="productItem fntPBold">
+                  <img src="img/thuoc1.jpg" alt="" width="178" height="178" />
+                  <h3>CELLOFILL III COLLAGEN</h3>
+                  <div className='productBorder'>
+                    <span></span>
+                    <img src="img/iconRo1.png" alt="" width="178" height="178" />
+                    <span></span>
+                  </div>
+                </a>
               </div>
             </div>
           </div>
