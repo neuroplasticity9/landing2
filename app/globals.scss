@@ -271,12 +271,12 @@ body {
 }
 
 .listProducts {
-  @apply flex flex-wrap justify-between items-center pt-[3.594vw] w-full;
+  @apply flex flex-wrap xl:justify-between justify-evenly items-center pt-[3.594vw] xl:w-full  w-[70%];
 }
 .productItem {
-  @apply block justify-center flex-wrap;
+  @apply block justify-center flex-wrap xl:mb-0 mb-[30px];
   > img{
-    @apply bg-white border-[2px] border-[#515254] p-[0.677vw] w-[9.271vw] h-[9.271vw];
+    @apply bg-white xl:border-[2px] border-[#515254] xl:p-[0.677vw] xl:w-[9.271vw] xl:h-[9.271vw] p-[0.911vw] w-[16.406vw] h-[16.406vw] border-[1px];
   }
   h3{
     @apply text-center text-[0.649vw] pt-[24px] pb-[11px];
