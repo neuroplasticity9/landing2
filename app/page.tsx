@@ -220,7 +220,7 @@ export default function Home() {
               <div className="customerItem">
                 <img src="img/thuoc1.jpg" className="customerImg" alt="" width="152" height="152" />
                 <div className="customerName fntPBold">
-                  <span className='customerNameText'>Tên đối tác 1</span>
+                  <span className="customerNameText">Tên đối tác 1</span>
                   <img src="img/iconRo1.png" alt="" width="20" height="20" />
                   <span className="hideBg"></span>
                   <span className="hideBg"></span>
@@ -229,7 +229,7 @@ export default function Home() {
               <div className="customerItem">
                 <img src="img/thuoc1.jpg" className="customerImg" alt="" width="152" height="152" />
                 <div className="customerName fntPBold">
-                  <span className='customerNameText'>Tên đối tác 2</span>
+                  <span className="customerNameText">Tên đối tác 2</span>
                   <img src="img/iconRo1.png" alt="" width="20" height="20" />
                   <span className="hideBg"></span>
                   <span className="hideBg"></span>
@@ -238,7 +238,7 @@ export default function Home() {
               <div className="customerItem">
                 <img src="img/thuoc1.jpg" className="customerImg" alt="" width="152" height="152" />
                 <div className="customerName fntPBold">
-                  <span className='customerNameText'>Tên đối tác 3</span>
+                  <span className="customerNameText">Tên đối tác 3</span>
                   <img src="img/iconRo1.png" alt="" width="20" height="20" />
                   <span className="hideBg"></span>
                   <span className="hideBg"></span>
@@ -247,11 +247,40 @@ export default function Home() {
               <div className="customerItem">
                 <img src="img/thuoc1.jpg" className="customerImg" alt="" width="152" height="152" />
                 <div className="customerName fntPBold">
-                  <span className='customerNameText'>Tên đối tác 4</span>
+                  <span className="customerNameText">Tên đối tác 4</span>
                   <img src="img/iconRo1.png" alt="" width="20" height="20" />
                   <span className="hideBg"></span>
                   <span className="hideBg"></span>
                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* body part4  */}
+        <section className="bgType1 areaBox">
+          <div className="area5Zone">
+            <header className="area3Head">
+              <h2 className="area3Title fntPBold">Phản hồi khách hàng</h2>
+            </header>
+            <div className='feedbackBox'>
+              <div className='feedbackItem'>
+                <img className='feedbackImg' src="img/imagePart2_2.jpg" width="84" height="84" alt="" />
+                <div className='feedBackCustomer fntPBold'>NGUYỄN KHÁNH LINH</div>
+                <div className="productBorder"><span></span><img src="img/iconRo1.png" alt="" width="20" height="20" /><span></span></div>
+                <div className='feedbackText'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </div>
+              </div>
+              <div className='feedbackItem'>
+                <img className='feedbackImg' src="img/imagePart2_2.jpg" width="84" height="84" alt="" />
+                <div className='feedBackCustomer fntPBold'>TRẦN LAN PHƯƠNG</div>
+                <div className="productBorder"><span></span><img src="img/iconRo1.png" alt="" width="20" height="20" /><span></span></div>
+                <div className='feedbackText'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </div>
+              </div>
+              <div className='feedbackItem'>
+                <img className='feedbackImg' src="img/imagePart2_2.jpg" width="84" height="84" alt="" />
+                <div className='feedBackCustomer fntPBold'>LÊ THỊ LOAN</div>
+                <div className="productBorder"><span></span><img src="img/iconRo1.png" alt="" width="20" height="20" /><span></span></div>
+                <div className='feedbackText'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </div>
               </div>
             </div>
           </div>

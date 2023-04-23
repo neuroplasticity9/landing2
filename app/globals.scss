@@ -337,3 +337,28 @@ body {
 .customerNameText {
   @apply xl:text-[22px] text-[#b33c4a] xl:h-[53px] uppercase flex justify-center items-center; 
 }
+
+/** zone5**/
+.area5Zone {
+  @apply xl:w-[72.917vw] xl:h-[37.5vw] xl:py-[5.208vw] py-[3.906vw] flex justify-center flex-wrap overflow-hidden;
+}
+
+.feedbackBox {
+  @apply flex justify-between flex-wrap w-full;
+}
+
+.feedbackItem{
+  @apply xl:w-[376px] xl:pt-[79px] xl:px-[20px] border-[#515254] border-[2px] relative text-center;
+  .productBorder{
+    img{
+      @apply xl:w-[14px] xl:h-[14px];
+    }
+    span{
+      @apply xl:w-[7vw];
+    }
+  }
+}
+
+.feedbackImg {
+  @apply border-[#515254] border-[2px] bg-white p-[8px] absolute top-[-41px] left-[calc(50%-41px)];
+}
