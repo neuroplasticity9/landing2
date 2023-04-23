@@ -11,6 +11,28 @@
   font-family: "UTM Avo", sans-serif;
 }
 
+@font-face {
+  font-family: "PBold";
+  src: url('/fonts/shopee2021-bold.ttf');
+}
+.fntPBold {
+  font-family: "PBold", sans-serif;
+}
+@font-face {
+  font-family: "PRegular";
+  src: url('/shopee2021-regular.ttf');
+}
+.fntPRegular {
+  font-family: "PRegular", sans-serif;
+}
+@font-face {
+  font-family: "FCong";
+  src: url('/fonts/VL_Lovepen Regular.otf');
+}
+.fntFCong {
+  font-family: "FCong", sans-serif;
+}
+
 body {}
 
 
