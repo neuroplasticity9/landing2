@@ -81,7 +81,7 @@ body {
 
 .sliderNewInner {
   .swiper-button-prev {
-    left: -45px;
+    @apply left-[-45px] max-sm:left-[-30px];
   }
 
   .swiper-button-prev:after {
@@ -94,7 +94,7 @@ body {
   }
 
   .swiper-button-next {
-    right: -45px;
+    @apply right-[-45px] max-sm:right-[-30px];
   }
 
   .swiper-button-next:after {
@@ -203,7 +203,7 @@ body {
   @apply relative flex justify-center w-full;
 }
 .area1Inner {
-  @apply xl:w-[1400px]  xl:h-[720px] xl:py-[140.006px] py-[30px] flex justify-between flex-wrap xl:flex-row flex-col-reverse overflow-hidden;
+  @apply xl:w-[1400px]  xl:h-[720px] xl:py-[140.006px] py-20 flex justify-between flex-wrap xl:flex-row flex-col-reverse overflow-hidden;
 }
 
 .area1 {
@@ -236,7 +236,7 @@ body {
 
 /** area 2 **/
 .aboutUsImg{
-  @apply xl:w-[1400px] xl:h-[777px] xl:py-[122px] py-[30px] flex justify-center flex-wrap overflow-hidden;
+  @apply xl:w-[1400px] xl:h-[777px] xl:py-[122px] py-20 flex justify-center flex-wrap overflow-hidden;
 }
 
 .aboutUsImg_content {
@@ -410,30 +410,30 @@ body {
 
 /** New page**/
 .areaIntro {
-  @apply xl:h-[860.006px] xl:w-[1400.006px] h-[344px] w-full flex justify-between items-center flex-wrap;
+  @apply h-[860px] w-[1400px] max-xl:w-full max-xl:h-auto flex justify-between max-xl:justify-evenly max-xl:py-10 items-center flex-wrap;
 }
 .introItem {
-  @apply xl:w-[325.997px] xl:h-[620.006px] border-[2px] border-[#b33d4a] flex justify-center items-center flex-wrap;
+  @apply w-[326px] h-[620px] border-[2px] border-[#b33d4a] flex justify-center items-center flex-wrap max-xl:mb-10;
 }
 .introBorder{
-  @apply xl:w-[300px] xl:h-[588px] border-[1px] border-[#b33d4a] pt-[30px];
+  @apply w-[300px] h-[588px] border-[1px] border-[#b33d4a] py-[30px] overflow-hidden;
   h3{
-    @apply xl:text-[24px] text-[#b33d4a] w-full text-center uppercase;
+    @apply text-[24px] text-[#b33d4a] w-full text-center uppercase;
   }
   .productBorder {
     @apply pt-[6px] pb-[10px];
     img { @apply w-[6px] h-[6px]; }
-    span { @apply w-[44px] h-[2px]; }
+    span { @apply w-[114px] h-[2px]; }
   }
 }
 .introImg img{
-  @apply xl:w-[245px] xl:h-[244.992px] border-[1px] border-[#b33d4a] mx-auto;
+  @apply w-[245px] h-[245px] border-[1px] border-[#b33d4a] mx-auto;
 }
 .introTitle {
-  @apply xl:text-[15px] text-center xl:pt-[28px] xl:pb-[37px];
+  @apply text-[15px] text-center pt-[28px] pb-[37px];
 }
 .introContent {
-  @apply xl:text-[15px] text-center xl:px-[25px];
+  @apply text-[15px] text-center px-[25px];
 }
 
 .bgNotFound{
