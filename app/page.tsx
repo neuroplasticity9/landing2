@@ -115,8 +115,8 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="swiper-button-next"></div>
-                <div className="swiper-button-prev"></div>
+                <div className="swiper-button-next swpBtnnext"></div>
+                <div className="swiper-button-prev swpBtnnext"></div>
               </div>
             </div>
           </div>

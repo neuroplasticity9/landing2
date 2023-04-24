@@ -160,8 +160,8 @@ export default function Page() {
                     </div>
                   </div>
                 </div>
-                <div className="swiper-button-next"></div>
-                <div className="swiper-button-prev"></div>
+                <div className="swiper-button-next swpBtnnext2"></div>
+                <div className="swiper-button-prev swpBtnprev2"></div>
               </div>
             </div>
           </div>
@@ -183,8 +183,8 @@ export default function Page() {
                     </div>
                   </div>
                 </div>
-                <div className="swiper-button-next"></div>
-                <div className="swiper-button-prev"></div>
+                <div className="swiper-button-next mySwiper2"></div>
+                <div className="swiper-button-prev mySwiper2"></div>
               </div>
             </div>
             <div className="area2Head">
