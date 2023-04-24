@@ -1,3 +1,12 @@
+document.querySelector('.menuHumber').addEventListener('click', function handleClick(event) {
+  let headerInner = document.querySelector('.headerInner');
+  if (headerInner.classList.contains('activeMn')) {
+    headerInner.classList.remove('activeMn');
+  } else {
+    headerInner.classList.add('activeMn');
+  }
+});
+
 let swiper = new Swiper('.mySwiper', {
   spaceBetween: 30,
   centeredSlides: true,
@@ -36,4 +45,3 @@ let swiper3 = new Swiper('.mySwiper3', {
     prevEl: '.swpBtnprev3'
   }
 });
-

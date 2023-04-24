@@ -147,7 +147,7 @@ body {
 }
 
 .navTop {
-  @apply xl:h-auto xl:w-[870px] xl:static h-[115px] max-sm:h-[80px] absolute left-0 top-0 z-50 group-[.activeMn]:h-[100vh] group-[.activeMn]:w-full group-[.activeMn]:bg-white;
+  @apply xl:h-auto xl:w-[870px] xl:static h-[115px] max-sm:h-[80px] absolute left-0 top-0 z-50 max-xl:group-[.activeMn]:h-[480vh] max-xl:group-[.activeMn]:w-full max-xl:group-[.activeMn]:bg-white;
 }
 
 .menuHumber {

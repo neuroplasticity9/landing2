@@ -8,7 +8,7 @@ export default function Home() {
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
       <header className="myHeader">
         <div className="headerInner group">
-          <a className="block">
+          <a href='/' className="block">
             <picture>
               <source media="(max-width: 1200px)" srcSet="img/logo-mobile.png" />
               <img src="img/logo.png" alt="" width={228} height={40} className="logo" />
@@ -17,11 +17,11 @@ export default function Home() {
           <section className="navTop">
             {/* chỗ này menu humberg */}
             <div className="menuHumber">
-              <a href="404.html" className="menuArea">
+              <div className="menuArea">
                 <span className="menuHumberLine" />
                 <span className="menuHumberLine" />
                 <span className="menuHumberLine" />
-              </a>
+              </div>
             </div>
             {/* chỗ này navtop */}
             <nav className="navLinkArea">
