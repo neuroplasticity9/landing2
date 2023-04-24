@@ -139,27 +139,27 @@ body {
 }
 
 .headerInner {
-  @apply xl:h-[71px] xl:w-[1400px] justify-center xl:justify-between flex items-center h-[115px];
+  @apply xl:h-[71px] xl:w-[1400px] justify-center xl:justify-between flex items-center h-[115px] max-sm:h-[80px];
 }
 
 .logo {
-  @apply xl:w-[228px] xl:h-[40px] w-[250px] h-auto;
+  @apply w-[228px] max-sm:h-[35px] max-sm:w-auto h-auto;
 }
 
 .navTop {
-  @apply xl:h-auto xl:w-[870px] xl:static h-[115px] absolute left-0 top-0 z-50 group-[.activeMn]:h-[100vh] group-[.activeMn]:w-full group-[.activeMn]:bg-white;
+  @apply xl:h-auto xl:w-[870px] xl:static h-[115px] max-sm:h-[80px] absolute left-0 top-0 z-50 group-[.activeMn]:h-[100vh] group-[.activeMn]:w-full group-[.activeMn]:bg-white;
 }
 
 .menuHumber {
-  @apply xl:hidden h-[115px] flex items-center;
+  @apply xl:hidden h-[115px] max-sm:h-[80px] flex items-center;
 }
 
 .menuArea {
-  @apply space-y-[13px] block p-[20px];
+  @apply space-y-[13px] block p-[20px] max-sm:space-y-[7px];
 }
 
 .menuHumberLine {
-  @apply block w-[83px] h-[11px] bg-gray-600 rounded-full;
+  @apply block w-[77px] h-[11px] bg-gray-600 rounded-full max-sm:w-[50px] max-sm:h-[8px];
 }
 
 .navLinkArea {
@@ -173,9 +173,9 @@ body {
 }
 
 .mIconTop{
-  @apply xl:hidden absolute right-0 top-0 flex h-[115px] items-center w-[163.999px] justify-between mr-[20px];
+  @apply xl:hidden absolute right-0 top-0 flex h-[115px] max-sm:h-[80px] items-center w-[164px] max-sm:w-[88px] justify-between mr-[20px] max-sm:mr-[20px] ;
   a img {
-    @apply w-[72.998px] h-[72.998px];
+    @apply w-[73px] h-[73px] max-sm:h-[40px] max-sm:w-[40px];
   }
 }
 
@@ -195,7 +195,7 @@ body {
 
 /** Slide show main **/
 .slideMain {
-  @apply xl:h-[589.997px] h-[240px] bg-slate-300;
+  @apply xl:h-[589.997px] h-[240px] max-xl:h-[340px] bg-slate-300;
 }
 
 /** body **/
@@ -243,7 +243,7 @@ body {
   @apply xl:w-[700px] xl:justify-start flex justify-center mb-[26px] xl:mb-0 xl:relative;
 }
 .aboutUsImg_img1{
-  @apply xl:w-[610px] xl:h-[450px] w-[472px] h-auto border-[#b33c4a] border-[2px] bg-white p-[8px];
+  @apply w-[610px] h-[450px] max-xl:w-[472px] max-sm:w-[90%] max-sm:h-auto border-[#b33c4a] border-[2px] bg-white p-[8px] object-cover;
 }
 .aboutUsImg_img2 {
   @apply xl:w-[263px] xl:h-[263px] absolute xl:top-[270.01px] xl:left-[425px] border-[#fff] border-[5px] z-10 hidden xl:block;
