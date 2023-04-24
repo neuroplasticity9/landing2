@@ -17,7 +17,7 @@ export default function Home() {
           <section className="navTop">
             {/* chỗ này menu humberg */}
             <div className="menuHumber">
-              <a href="#" className="menuArea">
+              <a href="404.html" className="menuArea">
                 <span className="menuHumberLine" />
                 <span className="menuHumberLine" />
                 <span className="menuHumberLine" />
@@ -25,23 +25,23 @@ export default function Home() {
             </div>
             {/* chỗ này navtop */}
             <nav className="navLinkArea">
-              <a className="navLink" href="#">
+              <a className="navLink" href="404.html">
                 Tin tức sự kiện
               </a>
               <span className="navSpe">|</span>
-              <a className="navLink" href="#">
+              <a className="navLink" href="404.html">
                 Về chúng tôi
               </a>
               <span className="navSpe">|</span>
-              <a className="navLink" href="#">
+              <a className="navLink" href="404.html">
                 Sản phẩm
               </a>
               <span className="navSpe">|</span>
-              <a className="navLink" href="#">
+              <a className="navLink" href="404.html">
                 Đối tác
               </a>
               <span className="navSpe">|</span>
-              <a className="navLink" href="#">
+              <a className="navLink" href="404.html">
                 Liện hệ
               </a>
             </nav>
@@ -59,7 +59,7 @@ export default function Home() {
           <div className="searchArea">
             <div className="searchBox">
               <input type="text" className="searchInput" placeholder="Tìm kiếm" />
-              <a href="#">
+              <a href="404.html">
                 <img src="img/icon-search.png" alt="" className="searchIcon" />
               </a>
             </div>
@@ -289,7 +289,7 @@ export default function Home() {
 
       <footer className='footer'>
         <div className='footerBox'>
-          <a className='footerLogo' href='#' title='Trang chu'><img src="img/logoFooter.png" width="310" height="200" alt="" /></a>
+          <a className='footerLogo' href="404.html" title='Trang chu'><img src="img/logoFooter.png" width="310" height="200" alt="" /></a>
           <div className='boxContact'>
             <div className='contactItem fntPRegular'>
               <img src="img/bt-phone.png" width="57px" height="57px" alt="" /> (+84) 1900 1234 5678

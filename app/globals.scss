@@ -420,3 +420,7 @@ body {
 .introContent {
   @apply xl:text-[0.781vw] text-center xl:px-[1.302vw];
 }
+
+.bgNotFound{
+  @apply bg-[url('/img/404.webp')] bg-no-repeat bg-cover bg-center w-full h-[100vh];
+}

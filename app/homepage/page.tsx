@@ -17,7 +17,7 @@ export default function Page() {
           <section className="navTop">
             {/* chỗ này menu humberg */}
             <div className="menuHumber">
-              <a href="#" className="menuArea">
+              <a href="404.html" className="menuArea">
                 <span className="menuHumberLine" />
                 <span className="menuHumberLine" />
                 <span className="menuHumberLine" />
@@ -25,23 +25,23 @@ export default function Page() {
             </div>
             {/* chỗ này navtop */}
             <nav className="navLinkArea">
-              <a className="navLink" href="#">
+              <a className="navLink" href="404.html">
                 Tin tức sự kiện
               </a>
               <span className="navSpe">|</span>
-              <a className="navLink" href="#">
+              <a className="navLink" href="404.html">
                 Về chúng tôi
               </a>
               <span className="navSpe">|</span>
-              <a className="navLink" href="#">
+              <a className="navLink" href="404.html">
                 Sản phẩm
               </a>
               <span className="navSpe">|</span>
-              <a className="navLink" href="#">
+              <a className="navLink" href="404.html">
                 Đối tác
               </a>
               <span className="navSpe">|</span>
-              <a className="navLink" href="#">
+              <a className="navLink" href="404.html">
                 Liện hệ
               </a>
             </nav>
@@ -59,7 +59,7 @@ export default function Page() {
           <div className="searchArea">
             <div className="searchBox">
               <input type="text" className="searchInput" placeholder="Tìm kiếm" />
-              <a href="#">
+              <a href="404.html">
                 <img src="img/icon-search.png" alt="" className="searchIcon" />
               </a>
             </div>
@@ -87,9 +87,9 @@ export default function Page() {
           <div className='areaIntro'>
             <div className='introItem'>
               <div className='introBorder'>
-                <h3 className='fntPBold'><a href='#'>Về chúng tôi</a></h3>
+                <h3 className='fntPBold'><a href="404.html">Về chúng tôi</a></h3>
                 <div className="productBorder"><span></span><img src="img/iconRo1.png" alt="" width="20" height="20" /><span></span></div>
-                <a className='introImg' href='#'><img src="img/imagePart2_2.jpg" width="245" height="245" alt="" /></a>
+                <a className='introImg' href="404.html"><img src="img/imagePart2_2.jpg" width="245" height="245" alt="" /></a>
                 <div className='introTitle fntPLight'>Giới thiệu công ty</div>
                 <div className='introContent fntPLight'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
               </div>
@@ -97,9 +97,9 @@ export default function Page() {
 
             <div className='introItem'>
               <div className='introBorder'>
-                <h3 className='fntPBold'><a href='#'>Sản phẩm</a></h3>
+                <h3 className='fntPBold'><a href="404.html">Sản phẩm</a></h3>
                 <div className="productBorder"><span></span><img src="img/iconRo1.png" alt="" width="20" height="20" /><span></span></div>
-                <a className='introImg' href='#'><img src="img/imagePart2_2.jpg" width="245" height="245" alt="" /></a>
+                <a className='introImg' href="404.html"><img src="img/imagePart2_2.jpg" width="245" height="245" alt="" /></a>
                 <div className='introTitle fntPLight'>Sản phẩm</div>
                 <div className='introContent fntPLight'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
               </div>
@@ -107,9 +107,9 @@ export default function Page() {
 
             <div className='introItem'>
               <div className='introBorder'>
-                <h3 className='fntPBold'><a href='#'>Đối tác</a></h3>
+                <h3 className='fntPBold'><a href="404.html">Đối tác</a></h3>
                 <div className="productBorder"><span></span><img src="img/iconRo1.png" alt="" width="20" height="20" /><span></span></div>
-                <a className='introImg' href='#'><img src="img/imagePart2_2.jpg" width="245" height="245" alt="" /></a>
+                <a className='introImg' href="404.html"><img src="img/imagePart2_2.jpg" width="245" height="245" alt="" /></a>
                 <div className='introTitle fntPLight'>Đối tác</div>
                 <div className='introContent fntPLight'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
               </div>
@@ -117,9 +117,9 @@ export default function Page() {
 
             <div className='introItem'>
               <div className='introBorder'>
-                <h3 className='fntPBold'><a href='#'>Hình ảnh - Video</a></h3>
+                <h3 className='fntPBold'><a href="404.html">Hình ảnh - Video</a></h3>
                 <div className="productBorder"><span></span><img src="img/iconRo1.png" alt="" width="20" height="20" /><span></span></div>
-                <a className='introImg' href='#'><img src="img/imagePart2_2.jpg" width="245" height="245" alt="" /></a>
+                <a className='introImg' href="404.html"><img src="img/imagePart2_2.jpg" width="245" height="245" alt="" /></a>
                 <div className='introTitle fntPLight'>Giới thiệu công ty</div>
                 <div className='introContent fntPLight'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
               </div>
@@ -212,7 +212,7 @@ export default function Page() {
 
       <footer className="footer">
         <div className="footerBox">
-          <a className="footerLogo" href="#" title="Trang chu">
+          <a className="footerLogo" href="404.html" title="Trang chu">
             <img src="img/logoFooter.png" width="310" height="200" alt="" />
           </a>
           <div className="boxContact">
