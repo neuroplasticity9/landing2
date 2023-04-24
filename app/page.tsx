@@ -81,7 +81,7 @@ export default function Home() {
         </div>
       </section>
 
-      <main>
+      <main className="w-full overflow-hidden">
         {/* body part 1  */}
         <section className="areaBox bgType1">
           <div className="area1Inner">
@@ -238,7 +238,7 @@ export default function Home() {
               <div className="customerItem">
                 <img src="img/thuoc1.jpg" className="customerImg" alt="" width="152" height="152" />
                 <div className="customerName fntPBold">
-                  <span className="customerNameText">Tên đối tác 3</span>
+                  <span className="customerNameText">Tên đối tác khá là dài</span>
                   <img src="img/iconRo1.png" alt="" width="20" height="20" />
                   <span className="hideBg"></span>
                   <span className="hideBg"></span>
@@ -263,46 +263,93 @@ export default function Home() {
             <header className="area3Head">
               <h2 className="area3Title fntPBold">Phản hồi khách hàng</h2>
             </header>
-            <div className='feedbackBox'>
-              <div className='feedbackItem'>
-                <img className='feedbackImg' src="img/imagePart2_2.jpg" width="84" height="84" alt="" />
-                <div className='feedBackCustomer fntPBold'>NGUYỄN KHÁNH LINH</div>
-                <div className="productBorder"><span></span><img src="img/iconRo1.png" alt="" width="20" height="20" /><span></span></div>
-                <div className='feedbackText'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </div>
+            <div className="feedbackBox">
+              <div className="feedbackItem">
+                <img className="feedbackImg" src="img/imagePart2_2.jpg" width="84" height="84" alt="" />
+                <div className="feedBackCustomer fntPBold">NGUYỄN KHÁNH LINH</div>
+                <div className="productBorder">
+                  <span></span>
+                  <img src="img/iconRo1.png" alt="" width="20" height="20" />
+                  <span></span>
+                </div>
+                <div className="feedbackText">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+                  ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.{' '}
+                </div>
               </div>
-              <div className='feedbackItem'>
-                <img className='feedbackImg' src="img/imagePart2_2.jpg" width="84" height="84" alt="" />
-                <div className='feedBackCustomer fntPBold'>TRẦN LAN PHƯƠNG</div>
-                <div className="productBorder"><span></span><img src="img/iconRo1.png" alt="" width="20" height="20" /><span></span></div>
-                <div className='feedbackText'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </div>
+              <div className="feedbackItem">
+                <img className="feedbackImg" src="img/imagePart2_2.jpg" width="84" height="84" alt="" />
+                <div className="feedBackCustomer fntPBold">TRẦN LAN PHƯƠNG</div>
+                <div className="productBorder">
+                  <span></span>
+                  <img src="img/iconRo1.png" alt="" width="20" height="20" />
+                  <span></span>
+                </div>
+                <div className="feedbackText">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+                  ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.{' '}
+                </div>
               </div>
-              <div className='feedbackItem'>
-                <img className='feedbackImg' src="img/imagePart2_2.jpg" width="84" height="84" alt="" />
-                <div className='feedBackCustomer fntPBold'>LÊ THỊ LOAN</div>
-                <div className="productBorder"><span></span><img src="img/iconRo1.png" alt="" width="20" height="20" /><span></span></div>
-                <div className='feedbackText'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </div>
+              <div className="feedbackItem">
+                <img className="feedbackImg" src="img/imagePart2_2.jpg" width="84" height="84" alt="" />
+                <div className="feedBackCustomer fntPBold">LÊ THỊ LOAN</div>
+                <div className="productBorder">
+                  <span></span>
+                  <img src="img/iconRo1.png" alt="" width="20" height="20" />
+                  <span></span>
+                </div>
+                <div className="feedbackText">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+                  ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.{' '}
+                </div>
               </div>
             </div>
           </div>
         </section>
+
+        <section className="bgType2 areaBox">
+          <div className="aboutUsImg">
+            <div className="aboutUsImg_content">
+              <img src="img/imagePart2_1.jpg" className="aboutUsImg_img1" alt="" />
+            </div>
+            <div className="area2Head">
+              <a href='#' className="area2HeadContent">
+                <h2 className="area2Text fntPBold">Đào tạo</h2>
+                <span className="area2Icon"></span>
+              </a>
+              <div className="area2Content">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+                  ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                </p>
+                <br></br>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+                  ultrices gravida.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
       </main>
 
-      <footer className='footer'>
-        <div className='footerBox'>
-          <a className='footerLogo' href="404.html" title='Trang chu'><img src="img/logoFooter.png" width="310" height="200" alt="" /></a>
-          <div className='boxContact'>
-            <div className='contactItem fntPRegular'>
+      <footer className="footer">
+        <div className="footerBox">
+          <a className="footerLogo" href="404.html" title="Trang chu">
+            <img src="img/logoFooter.png" width="310" height="200" alt="" />
+          </a>
+          <div className="boxContact">
+            <div className="contactItem fntPRegular">
               <img src="img/bt-phone.png" width="57px" height="57px" alt="" /> (+84) 1900 1234 5678
-            </div> 
-            <div className='contactItem fntPRegular'>
+            </div>
+            <div className="contactItem fntPRegular">
               <img src="img/bt-phone.png" width="57px" height="57px" alt="" /> hotro@skinrosemary.vn
             </div>
-            <div className='contactItem fntPRegular'>
-            
+            <div className="contactItem fntPRegular">
               <img src="img/bt-hotline.png" width="57px" height="57px" alt="" /> https://hotro.skinrosemary.vn
             </div>
-            <div className='contactItem fntPRegular'>
-            
+            <div className="contactItem fntPRegular">
               <img src="img/bt-localtion.png" width="57px" height="57px" alt="" /> Số 169 Phố Thái Hà, Láng Hạ, Đống Đa, Hà Nội
             </div>
           </div>
