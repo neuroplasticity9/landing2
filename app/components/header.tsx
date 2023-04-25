@@ -2,7 +2,7 @@ export function HeaderCp() {
   return (
     <header className="myHeader">
       <div className="headerInner group">
-        <a className="block" href="/trangchu">
+        <a className="block" href="trangchu.html">
           <picture>
             <source media="(max-width: 1200px)" srcSet="img/logo-mobile.png" />
             <img src="img/logo.png" alt="" width={228} height={40} className="logo" />
@@ -19,7 +19,7 @@ export function HeaderCp() {
           </div>
           {/* chỗ này navtop */}
           <nav className="navLinkArea">
-            <a className="navLink" href="/trangchu">
+            <a className="navLink" href="/trangchu.html">
               Trang chủ
             </a>
             <span className="navSpe">|</span>
