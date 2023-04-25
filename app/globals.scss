@@ -442,3 +442,9 @@ body {
 .bgNotFound{
   @apply bg-[url('/img/404.webp')] bg-no-repeat bg-cover bg-center w-full h-[100vh];
 }
+
+
+/**** About detail ****/
+.aboutDetail {
+  @apply w-[1400px] max-xl:w-full flex justify-between flex-wrap max-xl:justify-center;
+}

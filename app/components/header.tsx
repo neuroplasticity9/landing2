@@ -24,7 +24,7 @@ export function HeaderCp() {
               Trang chủ
             </a>
             <span className="navSpe">|</span>
-            <a className="navLink" href="404.html">
+            <a className="navLink" href="/about.html">
               Về chúng tôi
             </a>
             <span className="navSpe">|</span>
