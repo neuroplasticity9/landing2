@@ -265,7 +265,7 @@ body {
 }
 
 .area3Zone{
-  @apply xl:w-[1400.006px] xl:h-[720px] xl:py-[144px] py-[40px] flex justify-center flex-wrap overflow-hidden;
+  @apply xl:w-[1400px] xl:h-[720px] xl:py-[144px] py-[40px] flex justify-center flex-wrap overflow-hidden;
 }
 .area3Box {
   @apply flex justify-center flex-wrap w-full;
@@ -446,5 +446,47 @@ body {
 
 /**** About detail ****/
 .aboutDetail {
-  @apply w-[1400px] max-xl:w-full flex justify-between flex-wrap max-xl:justify-center;
+  @apply w-full flex justify-center items-center flex-wrap py-[100px] bg-[url('/img/bg-about-us.webp')];
+}
+.aboutDetailMain {
+  @apply w-[1200px] max-xl:w-full flex justify-between flex-wrap max-xl:justify-center;
+}
+.aboutDt_grouphead {
+  @apply w-full flex justify-between items-center flex-wrap mb-5;
+}
+.aboutDtImg {
+  @apply w-[604] h-[608] max-xl:w-[300px] max-xl:h-[300px] object-cover;
+}
+.aboutDt_box1 {
+  @apply w-[calc(100%-604px)] pl-[36px];
+}
+.aboutDtPage {
+  @apply bg-[#b33d4a] text-white h-[27px] leading-[27px] inline-flex px-[10px] uppercase;
+}
+.aboutDt_Title {
+  @apply text-[58px] text-[#515254] py-5;
+}
+.aboutDt_content1 {
+  @apply text-[20px];
+}
+.aboutDt_content2 {
+  @apply text-[20px];
+}
+.signalText {
+  @apply py-10 text-[102px];
+}
+.aboutDt_content3 {
+  @apply mb-10;
+}
+.aboutDt_content3-detail{
+  @apply mb-20;
+}
+.ceoImg {
+  @apply float-right ml-5;
+}
+.aboutDt_bottom {
+  @apply w-full flex justify-between items-center flex-wrap;
+  img {
+    @apply p-[13px] border-[#515254] border-[2px] bg-white object-cover;
+  }
 }
