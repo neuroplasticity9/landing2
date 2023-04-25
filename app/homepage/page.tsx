@@ -26,7 +26,7 @@ export default function Page() {
             {/* chỗ này navtop */}
             <nav className="navLinkArea">
               <a className="navLink" href="404.html">
-                Tin tức sự kiện
+                Trang chủ
               </a>
               <span className="navSpe">|</span>
               <a className="navLink" href="404.html">
@@ -220,7 +220,7 @@ export default function Page() {
               <img src="img/bt-phone.png" width="57px" height="57px" alt="" /> (+84) 1900 1234 5678
             </div>
             <div className="contactItem fntPRegular">
-              <img src="img/bt-phone.png" width="57px" height="57px" alt="" /> hotro@skinrosemary.vn
+              <img src="img/bt-email.png" width="57px" height="57px" alt="" /> hotro@skinrosemary.vn
             </div>
             <div className="contactItem fntPRegular">
               <img src="img/bt-hotline.png" width="57px" height="57px" alt="" /> https://hotro.skinrosemary.vn

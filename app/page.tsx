@@ -8,7 +8,7 @@ export default function Home() {
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
       <header className="myHeader">
         <div className="headerInner group">
-          <a href='/' className="block">
+          <a href="/" className="block">
             <picture>
               <source media="(max-width: 1200px)" srcSet="img/logo-mobile.png" />
               <img src="img/logo.png" alt="" width={228} height={40} className="logo" />
@@ -26,7 +26,7 @@ export default function Home() {
             {/* chỗ này navtop */}
             <nav className="navLinkArea">
               <a className="navLink" href="404.html">
-                Tin tức sự kiện
+                Trang chủ
               </a>
               <span className="navSpe">|</span>
               <a className="navLink" href="404.html">
@@ -127,8 +127,10 @@ export default function Home() {
         <section className="bgType2 areaBox">
           <div className="aboutUsImg">
             <div className="aboutUsImg_content">
-              <img src="img/imagePart2_1.jpg" className="aboutUsImg_img1" alt="" />
-              <img src="img/imagePart2_2.jpg" className="aboutUsImg_img2" alt="" />
+              <picture>
+                <source media="(max-width: 1280px)" srcSet="img/imagePart2_1.jpg" />
+                <img src="img/ImgAboutUs.webp" alt="" width={228} height={40} className='aboutUsImg_img1'  />
+              </picture>
             </div>
             <div className="area2Head">
               <header className="area2HeadContent">
@@ -313,7 +315,7 @@ export default function Home() {
               <img src="img/imagePart2_1.jpg" className="aboutUsImg_img1" alt="" />
             </div>
             <div className="area2Head">
-              <a href='#' className="area2HeadContent">
+              <a href="#" className="area2HeadContent">
                 <h2 className="area2Text fntPBold">Đào tạo</h2>
                 <span className="area2Icon"></span>
               </a>
@@ -331,7 +333,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-
       </main>
 
       <footer className="footer">
@@ -344,7 +345,7 @@ export default function Home() {
               <img src="img/bt-phone.png" width="57px" height="57px" alt="" /> (+84) 1900 1234 5678
             </div>
             <div className="contactItem fntPRegular">
-              <img src="img/bt-phone.png" width="57px" height="57px" alt="" /> hotro@skinrosemary.vn
+              <img src="img/bt-email.png" width="57px" height="57px" alt="" /> hotro@skinrosemary.vn
             </div>
             <div className="contactItem fntPRegular">
               <img src="img/bt-hotline.png" width="57px" height="57px" alt="" /> https://hotro.skinrosemary.vn

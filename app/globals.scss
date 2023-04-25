@@ -243,11 +243,11 @@ body {
   @apply xl:w-[700px] xl:justify-start flex justify-center mb-[26px] xl:mb-0 xl:relative;
 }
 .aboutUsImg_img1{
-  @apply w-[610px] h-[450px] max-xl:w-[472px] max-sm:w-[90%] max-sm:h-auto border-[#b33c4a] border-[2px] bg-white p-[8px] object-cover;
+  @apply w-[604px] h-[608px] max-xl:w-[604px] max-xl:h-auto max-sm:w-[90%] max-sm:h-auto object-cover mx-auto;
 }
-.aboutUsImg_img2 {
-  @apply xl:w-[263px] xl:h-[263px] absolute xl:top-[270.01px] xl:left-[425px] border-[#fff] border-[5px] z-10 hidden xl:block;
-}
+// .aboutUsImg_img2 {
+//   @apply xl:w-[263px] xl:h-[263px] absolute xl:top-[270.01px] xl:left-[425px] border-[#fff] border-[5px] z-10 hidden xl:block;
+// }
 .area2Head {
   @apply xl:w-[calc(100%-699.994px)] xl:justify-end xl:pt-[70px] justify-center;
 }
