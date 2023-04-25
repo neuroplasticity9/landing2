@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 export function HeaderCp() {
   return (
     <header className="myHeader">
@@ -43,7 +44,7 @@ export function HeaderCp() {
         {/* chỗ này là home page facebook */}
         <div className="mIconTop">
           <a href="" title="Homepage">
-            <img src="img/icon-home.png" alt="Homepage" />
+            <img src="img/icon-home.png" alt="Homepage"  />
           </a>
           <a href="" title="My Facebook">
             <img src="img/icon-fb.png" alt="Facebook" />

@@ -243,7 +243,7 @@ body {
   @apply xl:w-[700px] xl:justify-start flex justify-center mb-[26px] xl:mb-0 xl:relative pl-[50px] max-xl:pl-0;
 }
 .aboutUsImg_img1{
-  @apply w-[604px] h-[608px] max-xl:w-[604px] max-xl:h-auto max-sm:w-[90%] max-sm:h-auto object-cover mx-auto;
+  @apply w-[698px] h-[543px] max-xl:w-[604px] max-xl:h-auto max-sm:w-[90%] max-sm:h-auto object-cover mx-auto;
 }
 // .aboutUsImg_img2 {
 //   @apply xl:w-[263px] xl:h-[263px] absolute xl:top-[270.01px] xl:left-[425px] border-[#fff] border-[5px] z-10 hidden xl:block;
@@ -377,6 +377,9 @@ body {
 }
 
 .trainImg{
+  .aboutUsImg_content{
+    @apply pl-0;
+  }
   .aboutUsImg_img1 {
     @apply h-[400px] max-xl:h-auto;
   }

@@ -56,7 +56,7 @@ export default function Home() {
             <div className="aboutUsImg_content">
               <picture>
                 <source media="(max-width: 1280px)" srcSet="img/imagePart2_1.jpg" />
-                <img src="img/ImgAboutUs.webp" alt="" width={228} height={40} className='aboutUsImg_img1'  />
+                <img src="img/ve-chung-toi.webp" alt="" width={698} height={543} className='aboutUsImg_img1'  />
               </picture>
             </div>
             <div className="area2Head">
