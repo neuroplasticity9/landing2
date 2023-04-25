@@ -1,3 +1,5 @@
+import { FooterCp } from './components/footer'
+import { HeaderCp } from './components/header'
 import './globals.scss'
 
 export const metadata = {
@@ -13,7 +15,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <meta name="robots" content="noindex,nofollow" />
-      <body>{children}</body>
+      <body>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+        <HeaderCp />
+        {children}
+        <FooterCp />
+      </body>
     </html>
   )
 }
