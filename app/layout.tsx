@@ -1,6 +1,6 @@
 import Script from 'next/script';
-import { FooterCp } from './components/footer';
-import { HeaderCp } from './components/header';
+import { FooterCp } from '../components/footer';
+import { HeaderCp } from '../components/header';
 import './globals.scss';
 
 export const metadata = {

@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable @next/next/no-sync-scripts */
 import Script from 'next/script';
-import { MainSlideCp } from '../components/mainslide';
+import { MainSlideCp } from '../../components/mainslide';
 
 export default function Page() {
   return (

@@ -1,8 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable @next/next/no-sync-scripts */
 import Script from 'next/script';
-import { MainSlideCp } from '../components/mainslide';
-import { TrainBoxCp } from '../components/trainbox';
+import { MainSlideCp } from '../../components/mainslide';
+import { TrainBoxCp } from '../../components/trainbox';
 
 export default function Home() {
   return (
