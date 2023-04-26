@@ -91,6 +91,24 @@ export default function Page() {
                 <div className="introContent fntPLight">Các hoạt động ký kết, chuyển giao của công ty được diễn ra thường xuyên tại các viện thẩm mỹ lớn.</div>
               </div>
             </div>
+
+            <div className="introItem group" >
+              <div className="introBorder">
+                <h3 className="fntPBold">
+                  <a href="404.html">Đào tạo</a>
+                </h3>
+                <div className="productBorder">
+                  <span></span>
+                  <img src="img/iconRo1.png" alt="" width="20" height="20" />
+                  <span></span>
+                </div>
+                <a className="introImg" href="404.html">
+                  <img src="img/gt-dao-tao.webp" width="245" height="245" alt="" />
+                </a>
+                <div className="introTitle fntPLight">Hoạt động đào tạo</div>
+                <div className="introContent fntPLight">Skin Rosemary được đánh giá là một Công ty năng động, có nhiều tiềm năng và sở hữu đội chuyên gia giỏi về chuyên môn. Đó cũng chính là lý do mà các thẩm mỹ, bệnh viện y khoa lựa chọn làm đối tác cùng Skin Rosemary</div>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -161,7 +179,7 @@ export default function Page() {
                 <h2 className="area2Text fntPBold"><a href='#'>Xu hướng làm đẹp</a></h2>
                 <span className="area2Icon"></span>
               </header>
-              <div className="area2Content">
+              <div className="area2Content animate__animated animate__backInRight">
               Sau thời gian dài trải qua thời kì Covid đã làm gián đoạn chất lượng cuộc sống và nhu cầu làm đẹp của con người. Vẻ đẹp rạng ngời và thần thái nhất luôn toát lên từ bên trong bởi sự tự tin, khoẻ mạnh và lối sống tích cực. Vậy đâu là những xu hướng làm đẹp trong thời kì “bình thường mới” năm 2023, hãy cùng Skin Rosemary khám phá các bạn nhé.
               </div>
               <div className="specialText fntFCong">Skin Rosemary</div>
@@ -170,8 +188,6 @@ export default function Page() {
         </section>
         {/* body part3  */}
       </main>
-      <Script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></Script>
-      <Script src="js/slide.js"></Script>
     </>
   );
 }

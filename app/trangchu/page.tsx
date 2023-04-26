@@ -149,20 +149,22 @@ export default function Home() {
         <section className="bgType2 areaBox">
           <div className="area4Zone">
             <header className="area3Head">
-              <h2 className="area3Title fntPBold">Đối tác chiến lược</h2>
+              <h2 className="area3Title fntPBold">
+                <a href="#">Đối tác chiến lược</a>
+              </h2>
             </header>
             <div className="area4Box">
               <div className="customerItem">
-                <img src="img/thuoc1.jpg" className="customerImg" alt="" width="152" height="152" />
+                <img src="img/dr-seoul-skin.webp" className="customerImg" alt="" width="152" height="152" />
                 <div className="customerName fntPBold">
-                  <span className="customerNameText">Tên đối tác 1</span>
+                  <span className="customerNameText">Dr Seoul Skin</span>
                   <img src="img/iconRo1.png" alt="" width="20" height="20" />
                   <span className="hideBg"></span>
                   <span className="hideBg"></span>
                 </div>
               </div>
               <div className="customerItem">
-                <img src="img/thuoc1.jpg" className="customerImg" alt="" width="152" height="152" />
+                <img src="img/EXO-COBIO.webp" className="customerImg" alt="" width="152" height="152" />
                 <div className="customerName fntPBold">
                   <span className="customerNameText">Tên đối tác 2</span>
                   <img src="img/iconRo1.png" alt="" width="20" height="20" />
@@ -171,7 +173,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="customerItem">
-                <img src="img/thuoc1.jpg" className="customerImg" alt="" width="152" height="152" />
+                <img src="img/GORGEOUS-GOURI.webp" className="customerImg" alt="" width="152" height="152" />
                 <div className="customerName fntPBold">
                   <span className="customerNameText">Tên đối tác khá là dài</span>
                   <img src="img/iconRo1.png" alt="" width="20" height="20" />
@@ -180,7 +182,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="customerItem">
-                <img src="img/thuoc1.jpg" className="customerImg" alt="" width="152" height="152" />
+                <img src="img/n-beauty.webp" className="customerImg" alt="" width="152" height="152" />
                 <div className="customerName fntPBold">
                   <span className="customerNameText">Tên đối tác 4</span>
                   <img src="img/iconRo1.png" alt="" width="20" height="20" />
@@ -200,7 +202,7 @@ export default function Home() {
             </header>
             <div className="feedbackBox">
               <div className="feedbackItem">
-                <img className="feedbackImg" src="img/imagePart2_2.jpg" width="84" height="84" alt="" />
+                <img className="feedbackImg" src="img/feedback-1.webp" width="84" height="84" alt="" />
                 <div className="feedBackCustomer fntPBold">NGUYỄN KHÁNH LINH</div>
                 <div className="productBorder">
                   <span></span>
@@ -212,7 +214,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="feedbackItem">
-                <img className="feedbackImg" src="img/imagePart2_2.jpg" width="84" height="84" alt="" />
+                <img className="feedbackImg" src="img/feedback-2.webp" width="84" height="84" alt="" />
                 <div className="feedBackCustomer fntPBold">TRẦN LAN PHƯƠNG</div>
                 <div className="productBorder">
                   <span></span>
@@ -220,11 +222,12 @@ export default function Home() {
                   <span></span>
                 </div>
                 <div className="feedbackText">
-                Đây là lần đầu tiên tôi sử dụng 1 sản phẩm mà có nhiều tác dụng và đặc biệt không gây đau đớn gì cả. Cảm ơn đội ngũ kĩ thuật của Skin Rosemary đã tư vấn và nhiệt tình chăm sóc mình nhé.
+                  Đây là lần đầu tiên tôi sử dụng 1 sản phẩm mà có nhiều tác dụng và đặc biệt không gây đau đớn gì cả. Cảm ơn đội ngũ kĩ thuật của Skin Rosemary đã tư vấn
+                  và nhiệt tình chăm sóc mình nhé.
                 </div>
               </div>
               <div className="feedbackItem">
-                <img className="feedbackImg" src="img/imagePart2_2.jpg" width="84" height="84" alt="" />
+                <img className="feedbackImg" src="img/feedback-3.webp" width="84" height="84" alt="" />
                 <div className="feedBackCustomer fntPBold">LÊ THỊ LOAN</div>
                 <div className="productBorder">
                   <span></span>
@@ -232,7 +235,8 @@ export default function Home() {
                   <span></span>
                 </div>
                 <div className="feedbackText">
-                Sản phẩm của Skin Rosemary đã đáp đứng các tiêu chí mà tôi đưa ra: Căng da, nâng cơ, tác dụng ngay sau khi sử dụng, không gây đau đớn và giá cả rất phù hợp. Tôi sẽ vẫn ủng hộ Skin Rosemary lâu dài.
+                  Sản phẩm của Skin Rosemary đã đáp đứng các tiêu chí mà tôi đưa ra: Căng da, nâng cơ, tác dụng ngay sau khi sử dụng, không gây đau đớn và giá cả rất phù
+                  hợp. Tôi sẽ vẫn ủng hộ Skin Rosemary lâu dài.
                 </div>
               </div>
             </div>
@@ -241,24 +245,24 @@ export default function Home() {
 
         <section className="bgType2 areaBox">
           <div className="aboutUsImg trainImg">
-            <div className="aboutUsImg_content">
-              <img src="img/imagePart2_1.jpg" className="aboutUsImg_img1" alt="" />
-            </div>
             <div className="area2Head">
-              <a href="#" className="area2HeadContent">
-                <h2 className="area2Text fntPBold">Đào tạo</h2>
-                <span className="area2Icon"></span>
-              </a>
+              <header className="area1Header">
+                <span className="area1Icon" />
+                <h2 className="area1Head fntPBold">
+                  <a href="#">Đào tạo</a>
+                </h2>
+              </header>
               <div className="area2Content">
                 Skin Rosemary được đánh giá là một Công ty năng động, có nhiều tiềm năng và sở hữu đội chuyên gia giỏi về chuyên môn. Đó cũng chính là lý do mà các thẩm
                 mỹ, bệnh viện y khoa lựa chọn làm đối tác cùng Skin Rosemary
               </div>
             </div>
+            <div className="trainImg_content">
+              <img src="img/train1.webp" className="trainImg" alt="" />
+            </div>
           </div>
         </section>
       </main>
-      <Script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></Script>
-      <Script src="js/slide.js"></Script>
     </>
   );
 }
