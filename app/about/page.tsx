@@ -42,12 +42,14 @@ export default function Page() {
             <div className="aboutDt_content3">
               <div className="aboutDt_content3-detail">
                 <img src="img/tong-giam-doc.webp" alt="" className="ceoImg" />
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-                ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-                ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                Chúng ta hãy đến với giám đốc Skin Rosemary - người đã đưa công ty trở thành một thương hiệu được người tiêu dùng tin tưởng và yêu mến. Giám đốc Skin
+                Rosemary là một nhà lãnh đạo tài ba, luôn có tầm nhìn xa và đưa ra những chiến lược kinh doanh đúng đắn để đáp ứng nhu cầu của thị trường. Ông/chị luôn
+                tập trung vào việc nghiên cứu và cải thiện chất lượng sản phẩm, đồng thời đưa ra những ý tưởng mới và đột phá để phát triển công ty. Giám đốc Skin
+                Rosemary là một người năng động, luôn có tinh thần trách nhiệm cao và động lực vô cùng lớn để thúc đẩy công ty phát triển. Ông/chị luôn dành thời gian để
+                tìm hiểu thị trường và các xu hướng mới nhất, giúp công ty có thể đáp ứng được những thay đổi trong nhu cầu của khách hàng. Không chỉ có tầm nhìn xa và
+                năng động, giám đốc Skin Rosemary còn là một người hết sức tận tâm và luôn đặt lợi ích của công ty lên hàng đầu. Ông/chị luôn đồng hành và tạo điều kiện
+                tốt nhất để nhân viên có thể phát huy tối đa khả năng của mình và đóng góp vào sự phát triển của công ty. Với tất cả những phẩm chất trên, giám đốc Skin
+                Rosemary là một người đáng kính và đáng ngưỡng mộ. Công ty Skin Rosemary đã và đang phát triển mạnh mẽ nhờ sự lãnh đạo tài ba của ông/chị.
               </div>
             </div>
             <div className="aboutDt_bottom">
