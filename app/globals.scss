@@ -494,6 +494,9 @@ body {
 }
 .aboutDtImg {
   @apply w-[604] h-[608] max-xl:w-[300px] max-xl:h-[300px] object-cover;
+  &:hover {
+    @apply saturate-150;
+  }
 }
 .aboutDt_box1 {
   @apply w-[calc(100%-604px)] pl-[36px];
@@ -518,6 +521,9 @@ body {
 }
 .aboutDt_content3-detail{
   @apply mb-20;
+  img:hover  {
+    @apply saturate-150;
+  }
 }
 .ceoImg {
   @apply float-right ml-5;
@@ -526,5 +532,8 @@ body {
   @apply w-full flex justify-between items-center flex-wrap;
   img {
     @apply p-[13px] border-[#515254] border-[2px] bg-white object-cover;
+    &:hover{
+      @apply saturate-150;
+    }
   }
 }
