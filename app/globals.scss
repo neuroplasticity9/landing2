@@ -68,6 +68,7 @@ body {
   object-fit: cover;
   width: 100%;
   height: 100%;
+  @apply hover:saturate-150;
 }
 
 .bgType1 {
@@ -216,6 +217,9 @@ body {
 }
 .area1Head {
   @apply xl:h-[47.002px] xl:px-[30.01px] xl:text-[30.01px] text-[15.79px] px-[18px] h-[25px] flex items-center content-center flex-wrap bg-[#b03a48]  text-[#fff] uppercase;
+  &:hover {
+    @apply saturate-150;
+  }
 }
 .area1Content {
   @apply xl:pt-[39.994px] xl:w-auto xl:pr-0 pt-[30px] mx-auto  xl:text-[20px] text-[15px] xl:pl-[38px] px-[20px];
@@ -268,6 +272,9 @@ body {
 }
 .area2Text {
   @apply xl:h-[47px] xl:px-[30px] xl:text-[30px] text-[16px] px-[18px] h-[25px] flex items-center content-center flex-wrap bg-[#b03a48]  text-[#fff] uppercase ;
+  &:hover {
+    @apply saturate-150;
+  }
 }
 .area2Icon {
   @apply xl:h-[47px] xl:w-[25px] xl:ml-[12px] h-[47px] w-[25px] bg-[#b03a48] xl:block hidden
@@ -288,7 +295,10 @@ body {
 }
 
 .area3Title{
-  @apply xl:h-[47px] xl:px-[30px] xl:text-[30px] xl:mb-[32px] mb-[16px] text-[16px] px-[18px] h-[25px] inline-flex items-center content-center flex-wrap bg-[#b03a48]  text-[#fff] uppercase;
+  @apply xl:h-[47px] xl:px-[30px] xl:text-[30px] xl:mb-[32px] mb-[16px] text-[16px] px-[18px] h-[25px] inline-flex items-center content-center flex-wrap bg-[#b03a48] text-[#fff] uppercase;
+  &:hover {
+    @apply saturate-150;
+  }
 }
 
 .area3Text {
@@ -398,7 +408,7 @@ body {
 .trainZone{
   @apply xl:w-[1400px] flex justify-center flex-wrap overflow-hidden w-full max-xl:py-20 max-xl:flex-col-reverse;
   .trainImg_content{
-    @apply pl-0 max-xl:flex max-xl:justify-center max-xl:mb-10;
+    @apply pl-0 max-xl:flex max-xl:justify-center max-xl:mb-10 hover:saturate-200;
   }
   .trainImg {
     @apply max-xl:w-[80%] max-xl:h-[400px] max-sm:h-[300px] object-cover object-top;
@@ -421,6 +431,9 @@ body {
 
 .footerLogo{
   @apply w-[310px] max-xl:w-[200px] max-xl:mb-[40px];
+  &:hover img{
+    @apply saturate-150;
+  }
 }
 
 .boxContact{
@@ -430,6 +443,11 @@ body {
   @apply w-full flex items-center text-white text-[22px] mb-[22px] max-xl:w-[50%] max-xl:px-[20px] max-sm:w-full max-xl:text-[15px];
   img{
     @apply mr-[23px] max-xl:w-[40px];
+  }
+}
+.contactItem:hover{
+  img {
+    @apply saturate-150;
   }
 }
 
@@ -444,7 +462,7 @@ body {
 .introBorder{
   @apply w-[230px] h-[598px] max-sm:w-[290px]  max-sm:h-auto border-[1px] border-[#b33d4a] py-[30px] overflow-hidden;
   h3{
-    @apply text-[18px] text-[#b33d4a] w-full text-center uppercase group-hover:text-opacity-80;
+    @apply text-[18px] text-[#b33d4a] w-full text-center uppercase group-hover:saturate-150;
   }
   .productBorder {
     @apply pt-[6px] pb-[10px];
