@@ -68,19 +68,14 @@ export default function Home() {
             </div>
             <div className="area2Head">
               <header className="area2HeadContent">
-                <h2 className="area2Text fntPBold"><a href='/about.html'>Về chúng tôi</a></h2>
+                <h2 className="area2Text fntPBold">
+                  <a href="/about.html">Về chúng tôi</a>
+                </h2>
                 <span className="area2Icon"></span>
               </header>
               <div className="area2Content">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-                  ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
-                </p>
-                <br></br>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-                  ultrices gravida.
-                </p>
+                Skin Rosemary là thương hiệu thuộc Công ty Thương Mại Dịch Vụ và Phát Triển Minh Vũ chuyên cung cấp các sản phẩm làm đẹp có thương hiệu trên toàn thế giới
+                với tiêu chuẩn quốc tế và có giá thành phù hợp với người tiêu dùng tại Việt nam.
               </div>
             </div>
           </div>
@@ -92,7 +87,11 @@ export default function Home() {
           <div className="area3Zone">
             <div className="area3Box">
               <header className="area3Head">
-                <h2 className="area3Title fntPBold"><a href='#' title='Sản phẩm của chúng tôi'>Sản phẩm của chúng tôi</a></h2>
+                <h2 className="area3Title fntPBold">
+                  <a href="#" title="Sản phẩm của chúng tôi">
+                    Sản phẩm của chúng tôi
+                  </a>
+                </h2>
                 <div className="fntPRegular area3Text">Dưới đây là một số sản phẩm bán chạy nhất của chúng tôi.</div>
               </header>
               <div className="listProducts">
@@ -209,8 +208,7 @@ export default function Home() {
                   <span></span>
                 </div>
                 <div className="feedbackText">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-                  ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.{' '}
+                  Mình cảm thấy rất tin tưởng Skin Rosemary, cảm giác làn da căng bóng, mịn màng hẳn chỉ sau 1 lần trải nghiệm. Thực sự rất tuyệt vời.
                 </div>
               </div>
               <div className="feedbackItem">
@@ -222,8 +220,7 @@ export default function Home() {
                   <span></span>
                 </div>
                 <div className="feedbackText">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-                  ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.{' '}
+                Đây là lần đầu tiên tôi sử dụng 1 sản phẩm mà có nhiều tác dụng và đặc biệt không gây đau đớn gì cả. Cảm ơn đội ngũ kĩ thuật của Skin Rosemary đã tư vấn và nhiệt tình chăm sóc mình nhé.
                 </div>
               </div>
               <div className="feedbackItem">
@@ -235,8 +232,7 @@ export default function Home() {
                   <span></span>
                 </div>
                 <div className="feedbackText">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-                  ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.{' '}
+                Sản phẩm của Skin Rosemary đã đáp đứng các tiêu chí mà tôi đưa ra: Căng da, nâng cơ, tác dụng ngay sau khi sử dụng, không gây đau đớn và giá cả rất phù hợp. Tôi sẽ vẫn ủng hộ Skin Rosemary lâu dài.
                 </div>
               </div>
             </div>
@@ -254,15 +250,8 @@ export default function Home() {
                 <span className="area2Icon"></span>
               </a>
               <div className="area2Content">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-                  ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
-                </p>
-                <br></br>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-                  ultrices gravida.
-                </p>
+                Skin Rosemary được đánh giá là một Công ty năng động, có nhiều tiềm năng và sở hữu đội chuyên gia giỏi về chuyên môn. Đó cũng chính là lý do mà các thẩm
+                mỹ, bệnh viện y khoa lựa chọn làm đối tác cùng Skin Rosemary
               </div>
             </div>
           </div>

@@ -225,7 +225,6 @@ body {
   @apply line-clamp-8 mb-5;
 }
 .btnReadMore {
-  @apply text-right;
   a {
     @apply text-[#b03a48] text-[15px] uppercase hover:text-red-500;
   }
@@ -259,6 +258,9 @@ body {
 // }
 .area2Head {
   @apply xl:w-[calc(100%-699.994px)] xl:justify-end xl:pt-[70px] justify-center;
+  .specialText {
+    @apply justify-end pt-5;
+  }
 }
 .area2HeadContent{
   @apply flex justify-center xl:justify-end;

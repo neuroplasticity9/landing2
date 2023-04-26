@@ -158,20 +158,13 @@ export default function Page() {
             </div>
             <div className="area2Head">
               <header className="area2HeadContent">
-                <h2 className="area2Text fntPBold">Xu hướng làm đẹp</h2>
+                <h2 className="area2Text fntPBold"><a href='#'>Xu hướng làm đẹp</a></h2>
                 <span className="area2Icon"></span>
               </header>
               <div className="area2Content">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-                  ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
-                </p>
-                <br></br>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-                  ultrices gravida.
-                </p>
+              Sau thời gian dài trải qua thời kì Covid đã làm gián đoạn chất lượng cuộc sống và nhu cầu làm đẹp của con người. Vẻ đẹp rạng ngời và thần thái nhất luôn toát lên từ bên trong bởi sự tự tin, khoẻ mạnh và lối sống tích cực. Vậy đâu là những xu hướng làm đẹp trong thời kì “bình thường mới” năm 2023, hãy cùng Skin Rosemary khám phá các bạn nhé.
               </div>
+              <div className="specialText fntFCong">Skin Rosemary</div>
             </div>
           </div>
         </section>
