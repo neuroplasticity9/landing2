@@ -9,7 +9,8 @@
     "build2": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next build && serve out"
+    "format":"prettier 'out/*.html' --write",
+    "export": "next build && turbo run format && serve out"
   },
   "dependencies": {
     "@types/node": "18.15.13",
@@ -23,11 +24,13 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sass": "^1.62.0",
-    "serve": "^14.2.0",
     "tailwindcss": "3.3.1",
     "typescript": "5.0.4"
   },
   "devDependencies": {
-    "turbo": "^1.9.3"
+    "serve": "^14.2.0",
+    "turbo": "^1.9.3",
+    "prettier": "2.8.7",
+    "prettier-plugin-tailwindcss": "0.2.7"
   }
 }
