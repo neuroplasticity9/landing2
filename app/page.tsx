@@ -2,6 +2,7 @@
 /* eslint-disable @next/next/no-sync-scripts */
 import Script from 'next/script';
 import { MainSlideCp } from './components/mainslide';
+import { TrainBoxCp } from './components/trainbox';
 
 export default function Page() {
   return (
@@ -187,6 +188,7 @@ export default function Page() {
           </div>
         </section>
         {/* body part3  */}
+        <TrainBoxCp />
       </main>
     </>
   );
