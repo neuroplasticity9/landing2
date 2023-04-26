@@ -440,7 +440,7 @@ body {
   @apply flex justify-start flex-wrap w-[700px] pl-[120px] max-xl:w-full max-xl:pl-[20px];
 }
 .contactItem {
-  @apply w-[280px] pr-[20px] flex items-center text-white text-[22px] mb-[22px] max-xl:w-[220px] max-xl:px-[20px] max-xl:text-[15px];
+  @apply xl:w-full pr-[20px] flex items-center text-white text-[22px] mb-[22px] max-xl:w-[220px] max-xl:px-[20px] max-xl:text-[15px];
   img{
     @apply mr-[23px] max-xl:w-[40px] rounded-[10px] border-[#b33d4a] border-[2px] p-[5px];
   }
