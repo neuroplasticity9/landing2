@@ -441,7 +441,7 @@ body {
   @apply w-[1400px] max-xl:w-full max-xl:h-auto flex justify-between max-xl:justify-evenly max-xl:py-10 items-center flex-wrap py-20;
 }
 .introItem {
-  @apply w-[250px] h-[620px] max-sm:w-[320px] border-[2px] border-[#b33d4a] flex justify-center items-center flex-wrap max-xl:mb-10;
+  @apply w-[250px] h-[620px] mx-5 max-sm:w-[320px] border-[2px] border-[#b33d4a] flex justify-center items-center flex-wrap max-xl:mb-10;
 }
 .introBorder{
   @apply w-[230px] h-[598px] max-sm:w-[290px]  max-sm:h-[588px] border-[1px] border-[#b33d4a] py-[30px] overflow-hidden;
