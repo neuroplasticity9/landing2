@@ -226,6 +226,7 @@ body {
   @apply line-clamp-8 mb-5 text-justify;
 }
 .btnReadMore {
+  @apply max-xl:text-center;
   a {
     @apply text-[#b03a48] text-[15px] uppercase hover:text-red-500;
   }
@@ -244,9 +245,10 @@ body {
 }
 
 /** area 2 **/
-.aboutUsImg{
-  @apply xl:w-[1400px] flex justify-center flex-wrap overflow-hidden;
+.aboutUsZone{
+  @apply xl:w-[1400px] flex justify-center flex-wrap overflow-hidden py-20;
 }
+
 
 .aboutUsImg_content {
   @apply xl:w-[700px] xl:justify-start flex justify-center mb-[26px] xl:mb-0 xl:relative pl-[50px] max-xl:pl-0;
@@ -394,7 +396,9 @@ body {
     @apply hover:opacity-60;
   }
 }
-
+.aboutUsImg {
+  @apply xl:w-[1400px] flex justify-center flex-wrap overflow-hidden;
+}
 .trainImg{
   .trainImg_content{
     @apply pl-0;
@@ -403,7 +407,7 @@ body {
     @apply h-[400px] max-xl:h-auto;
   }
   .area2Head {
-    @apply pt-20 max-xl:pt-0;
+    @apply py-20 max-xl:pt-0;
   }
   .area2Content {
     @apply text-justify pl-10 pr-32;

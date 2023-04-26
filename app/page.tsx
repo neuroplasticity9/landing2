@@ -157,7 +157,7 @@ export default function Page() {
         {/* body part2  */}
 
         <section className="bgType1 areaBox">
-          <div className="aboutUsImg">
+          <div className="aboutUsZone">
             <div className="aboutUsImg_content">
               <div className="sliderNewInner">
                 <div className="swiper mySwiper3">

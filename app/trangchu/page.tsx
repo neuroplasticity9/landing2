@@ -59,7 +59,7 @@ export default function Home() {
         {/* body part2  */}
 
         <section className="bgType2 areaBox">
-          <div className="aboutUsImg">
+          <div className="aboutUsZone">
             <div className="aboutUsImg_content">
               <picture>
                 <source media="(max-width: 1280px)" srcSet="img/imagePart2_1.jpg" />
@@ -166,7 +166,7 @@ export default function Home() {
               <div className="customerItem">
                 <img src="img/EXO-COBIO.webp" className="customerImg" alt="" width="152" height="152" />
                 <div className="customerName fntPBold">
-                  <span className="customerNameText">Tên đối tác 2</span>
+                  <span className="customerNameText">Exo-Cobio</span>
                   <img src="img/iconRo1.png" alt="" width="20" height="20" />
                   <span className="hideBg"></span>
                   <span className="hideBg"></span>
@@ -175,7 +175,7 @@ export default function Home() {
               <div className="customerItem">
                 <img src="img/GORGEOUS-GOURI.webp" className="customerImg" alt="" width="152" height="152" />
                 <div className="customerName fntPBold">
-                  <span className="customerNameText">Tên đối tác khá là dài</span>
+                  <span className="customerNameText">Gouri</span>
                   <img src="img/iconRo1.png" alt="" width="20" height="20" />
                   <span className="hideBg"></span>
                   <span className="hideBg"></span>
@@ -184,7 +184,7 @@ export default function Home() {
               <div className="customerItem">
                 <img src="img/n-beauty.webp" className="customerImg" alt="" width="152" height="152" />
                 <div className="customerName fntPBold">
-                  <span className="customerNameText">Tên đối tác 4</span>
+                  <span className="customerNameText">N-Beauty</span>
                   <img src="img/iconRo1.png" alt="" width="20" height="20" />
                   <span className="hideBg"></span>
                   <span className="hideBg"></span>
