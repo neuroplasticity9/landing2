@@ -50,11 +50,25 @@ let swiper3 = new Swiper('.mySwiper3', {
 });
 
 let swiper4 = new Swiper('.mySwiper4', {
-  slidesPerView: 4,
-   autoplay: {
-     delay: 2500,
-     disableOnInteraction: false
-   },
+  slidesPerView: 2,
+  // autoplay: {
+  //   delay: 2500,
+  //   disableOnInteraction: false
+  // },
   loop: true,
-  spaceBetween: 30,
+  spaceBetween: 114,
+  breakpoints: {
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 4,
+      spaceBetween: 114,
+    },
+  },
 });

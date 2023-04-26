@@ -342,13 +342,14 @@ body {
   @apply w-full;
 }
 .customerItem.swiper-slide {
-  @apply xl:w-[263px] xl:mb-0 mb-[30px] max-xl:mx-10 max-sm:w-[130px] max-sm:mx-2 bg-none flex-wrap;
+  @apply w-[263px] xl:mb-0 bg-none flex-wrap mr-[114px];
 }
+
 .swiper-slide .customerImg {
-  @apply xl:w-[263px] xl:h-[263px] xl:mb-[22px] max-sm:w-[100px] max-sm:h-[100px] w-[153px] h-[153px] xl:p-[13px] p-[6px] mb-[22px] border-[#b33c4a] xl:border-[2px] border-[1px] bg-white rounded-full object-cover object-top;
+  @apply w-full h-auto xl:mb-[22px] xl:p-[13px] p-[6px] mb-[22px] border-[#b33c4a] xl:border-[2px] border-[1px] bg-white rounded-full object-cover object-top;
 }
 .customerName{
-  @apply xl:w-[263px] w-[153px] max-sm:w-[100px] flex bg-white justify-center items-center relative  border-[#b33c4a] border-[1px];
+  @apply  w-full  flex bg-white justify-center items-center relative  border-[#b33c4a] border-[1px];
   img{
     @apply absolute xl:top-[-10px] xl:left-[calc(50%-10px)] xl:w-[14px] xl:h-[16px] w-[10px] h-[10px] left-[calc(50%-5px)] top-[-5px];
   }
