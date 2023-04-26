@@ -9,7 +9,7 @@ export default function Page() {
       <MainSlideCp />
       <main>
         <section className="newsPage">
-         
+         Tin tức
         </section>
       </main>
       <Script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></Script>

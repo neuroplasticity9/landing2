@@ -20,7 +20,7 @@ export function HeaderCp() {
           </div>
           {/* chỗ này navtop */}
           <nav className="navLinkArea">
-            <a className="navLink" href="/trangchu.html">
+            <a className="navLink" href="/trang-chu.html">
               Trang chủ
             </a>
             <span className="navSpe">|</span>

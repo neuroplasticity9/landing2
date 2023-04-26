@@ -17,7 +17,7 @@ export default function Home() {
               <header className="area1Header">
                 <span className="area1Icon"></span>
                 <h2 className="area1Head fntPBold">
-                  <a href="#">Tin tức - sự kiện</a>
+                  <a href="/tin-tuc.html">Tin tức - sự kiện</a>
                 </h2>
               </header>
               <div className="area1Content fntPRegular">
