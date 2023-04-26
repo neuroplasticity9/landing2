@@ -204,7 +204,7 @@ body {
   @apply relative flex justify-center w-full;
 }
 .area1Inner {
-  @apply xl:w-[1400px]  xl:h-[720px] xl:py-[140.006px] py-20 flex justify-between flex-wrap xl:flex-row flex-col-reverse overflow-hidden;
+  @apply xl:w-[1400px]  xl:h-[720px] xl:py-[140] py-14 flex justify-between flex-wrap xl:flex-row flex-col-reverse overflow-hidden;
 }
 
 .area1 {
@@ -246,7 +246,7 @@ body {
 
 /** area 2 **/
 .aboutUsZone{
-  @apply xl:w-[1400px] flex justify-center flex-wrap overflow-hidden py-20;
+  @apply xl:w-[1400px] flex justify-center flex-wrap overflow-hidden py-14;
 }
 
 
@@ -279,7 +279,7 @@ body {
 }
 
 .area3Zone{
-  @apply xl:w-[1400px] xl:h-[720px] xl:py-[144px] py-[40px] flex justify-center flex-wrap overflow-hidden;
+  @apply xl:w-[1400px] xl:h-[720px] xl:py-[144px] py-14 flex justify-center flex-wrap overflow-hidden;
 }
 .area3Box {
   @apply flex justify-center flex-wrap w-full;
@@ -324,17 +324,17 @@ body {
 
 /** area 4 **/
 .area4Zone{
-  @apply xl:w-[1400px] xl:h-[777px] xl:py-[143px] py-[90px] flex justify-center flex-wrap overflow-hidden px-[20px];
+  @apply xl:w-[1400px] xl:h-[777px] xl:py-[143px] py-[90px] flex justify-center flex-wrap overflow-hidden px-14;
   .area3Head{
     @apply mb-[28px];
   }
 }
 
 .area4Box{
-  @apply flex justify-between flex-wrap w-full;
+  @apply flex justify-between flex-wrap w-full max-xl:justify-center;
 }
 .customerItem {
-  @apply xl:w-[300px] xl:mb-0 mb-[30px];
+  @apply xl:w-[300px] xl:mb-0 mb-[30px] mx-10;
 }
 .customerImg {
   @apply xl:w-[263px] xl:h-[263px] xl:mb-[22px] w-[153px] h-[153px] xl:p-[12.998px] p-[5.768px] mb-[22px] border-[#b33c4a] xl:border-[2px] border-[1px] bg-white rounded-full object-cover object-top;
@@ -441,10 +441,10 @@ body {
   @apply w-[1400px] max-xl:w-full max-xl:h-auto flex justify-between max-xl:justify-evenly max-xl:py-10 items-center flex-wrap py-20;
 }
 .introItem {
-  @apply w-[250px] h-[620px] border-[2px] border-[#b33d4a] flex justify-center items-center flex-wrap max-xl:mb-10;
+  @apply w-[250px] h-[620px] max-sm:w-[320px] border-[2px] border-[#b33d4a] flex justify-center items-center flex-wrap max-xl:mb-10;
 }
 .introBorder{
-  @apply w-[230px] h-[598px] border-[1px] border-[#b33d4a] py-[30px] overflow-hidden;
+  @apply w-[230px] h-[598px] max-sm:w-[290px]  max-sm:h-[588px] border-[1px] border-[#b33d4a] py-[30px] overflow-hidden;
   h3{
     @apply text-[18px] text-[#b33d4a] w-full text-center uppercase group-hover:text-opacity-80;
   }
