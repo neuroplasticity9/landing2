@@ -114,7 +114,7 @@ export default function Page() {
             <div className="area1">
               <header className="area1Header">
                 <span className="area1Icon"></span>
-                <h2 className="area1Head fntPBold"><a href='#'>Tin tức - sự kiện</a></h2>
+                <h2 className="area1Head fntPBold"><a href='/tin-tuc.html'>Tin tức - sự kiện</a></h2>
               </header>
               <div className="area1Content fntPRegular">
                 <div className='area1ContentMain'>Sáng ngày 16/04/2023 vừa qua, tại viện thẩm mỹ Dr.Seoul Skin Hà Nội đã diễn ra lễ ký kết chuyển giao công nghệ giữa Skin Rosemary và Dr.Seoul Skin. Theo
