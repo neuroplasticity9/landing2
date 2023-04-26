@@ -3,7 +3,7 @@ export function HeaderCp() {
   return (
     <header className="myHeader">
       <div className="headerInner group">
-        <a className="block" href="trangchu.html">
+        <a className="block" href="/">
           <picture>
             <source media="(max-width: 1200px)" srcSet="img/logo-mobile.png" />
             <img src="img/logo.png" alt="" width={228} height={40} className="logo" />

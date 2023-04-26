@@ -155,40 +155,80 @@ export default function Home() {
               </h2>
             </header>
             <div className="area4Box">
-              <div className="customerItem">
-                <img src="img/dr-seoul-skin.webp" className="customerImg" alt="" width="152" height="152" />
-                <div className="customerName fntPBold">
-                  <span className="customerNameText">Dr Seoul Skin</span>
-                  <img src="img/iconRo1.png" alt="" width="20" height="20" />
-                  <span className="hideBg"></span>
-                  <span className="hideBg"></span>
-                </div>
-              </div>
-              <div className="customerItem">
-                <img src="img/EXO-COBIO.webp" className="customerImg" alt="" width="152" height="152" />
-                <div className="customerName fntPBold">
-                  <span className="customerNameText">Exo-Cobio</span>
-                  <img src="img/iconRo1.png" alt="" width="20" height="20" />
-                  <span className="hideBg"></span>
-                  <span className="hideBg"></span>
-                </div>
-              </div>
-              <div className="customerItem">
-                <img src="img/GORGEOUS-GOURI.webp" className="customerImg" alt="" width="152" height="152" />
-                <div className="customerName fntPBold">
-                  <span className="customerNameText">Gouri</span>
-                  <img src="img/iconRo1.png" alt="" width="20" height="20" />
-                  <span className="hideBg"></span>
-                  <span className="hideBg"></span>
-                </div>
-              </div>
-              <div className="customerItem">
-                <img src="img/n-beauty.webp" className="customerImg" alt="" width="152" height="152" />
-                <div className="customerName fntPBold">
-                  <span className="customerNameText">N-Beauty</span>
-                  <img src="img/iconRo1.png" alt="" width="20" height="20" />
-                  <span className="hideBg"></span>
-                  <span className="hideBg"></span>
+              <div className="swiper mySwiper4">
+                <div className="swiper-wrapper">
+                  <div className="swiper-slide customerItem">
+                    <img src="img/dr-seoul-skin.webp" className="customerImg" alt="" width="152" height="152" />
+                    <div className="customerName fntPBold">
+                      <span className="customerNameText">Dr Seoul Skin</span>
+                      <img src="img/iconRo1.png" alt="" width="20" height="20" />
+                      <span className="hideBg"></span>
+                      <span className="hideBg"></span>
+                    </div>
+                  </div>
+                  <div className="swiper-slide customerItem">
+                    <img src="img/EXO-COBIO.webp" className="customerImg" alt="" width="152" height="152" />
+                    <div className="customerName fntPBold">
+                      <span className="customerNameText">Exo-Cobio</span>
+                      <img src="img/iconRo1.png" alt="" width="20" height="20" />
+                      <span className="hideBg"></span>
+                      <span className="hideBg"></span>
+                    </div>
+                  </div>
+                  <div className="swiper-slide customerItem">
+                    <img src="img/GORGEOUS-GOURI.webp" className="customerImg" alt="" width="152" height="152" />
+                    <div className="customerName fntPBold">
+                      <span className="customerNameText">Gouri</span>
+                      <img src="img/iconRo1.png" alt="" width="20" height="20" />
+                      <span className="hideBg"></span>
+                      <span className="hideBg"></span>
+                    </div>
+                  </div>
+                  <div className="swiper-slide customerItem">
+                    <img src="img/n-beauty.webp" className="customerImg" alt="" width="152" height="152" />
+                    <div className="customerName fntPBold">
+                      <span className="customerNameText">N-Beauty</span>
+                      <img src="img/iconRo1.png" alt="" width="20" height="20" />
+                      <span className="hideBg"></span>
+                      <span className="hideBg"></span>
+                    </div>
+                  </div>
+                  <div className="swiper-slide customerItem">
+                    <img src="img/dr-seoul-skin.webp" className="customerImg" alt="" width="152" height="152" />
+                    <div className="customerName fntPBold">
+                      <span className="customerNameText">Dr Seoul Skin</span>
+                      <img src="img/iconRo1.png" alt="" width="20" height="20" />
+                      <span className="hideBg"></span>
+                      <span className="hideBg"></span>
+                    </div>
+                  </div>
+                  <div className="swiper-slide customerItem">
+                    <img src="img/EXO-COBIO.webp" className="customerImg" alt="" width="152" height="152" />
+                    <div className="customerName fntPBold">
+                      <span className="customerNameText">Exo-Cobio</span>
+                      <img src="img/iconRo1.png" alt="" width="20" height="20" />
+                      <span className="hideBg"></span>
+                      <span className="hideBg"></span>
+                    </div>
+                  </div>
+                  <div className="swiper-slide customerItem">
+                    <img src="img/GORGEOUS-GOURI.webp" className="customerImg" alt="" width="152" height="152" />
+                    <div className="customerName fntPBold">
+                      <span className="customerNameText">Gouri</span>
+                      <img src="img/iconRo1.png" alt="" width="20" height="20" />
+                      <span className="hideBg"></span>
+                      <span className="hideBg"></span>
+                    </div>
+                  </div>
+                  <div className="swiper-slide customerItem">
+                    <img src="img/n-beauty.webp" className="customerImg" alt="" width="152" height="152" />
+                    <div className="customerName fntPBold">
+                      <span className="customerNameText">N-Beauty</span>
+                      <img src="img/iconRo1.png" alt="" width="20" height="20" />
+                      <span className="hideBg"></span>
+                      <span className="hideBg"></span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -244,7 +284,6 @@ export default function Home() {
           </div>
         </section>
         <TrainBoxCp />
-        
       </main>
     </>
   );

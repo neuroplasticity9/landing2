@@ -25,7 +25,6 @@ export default function Page() {
                 <a className="introImg" href="404.html">
                   <img src="img/gt-ve-chung-toi.webp" width="245" height="245" alt="" />
                 </a>
-                <div className="introTitle fntPLight">Giới thiệu công ty</div>
                 <div className="introContent fntPLight">
                   Skin Rosemary là thương hiệu thuộc Công ty Thương Mại Dịch Vụ và Phát Triển Minh Vũ chuyên cung cấp các sản phẩm làm đẹp có thương hiệu trên toàn thế
                   giới với tiêu chuẩn quốc tế và có giá thành phù hợp với người tiêu dùng tại Việt nam.
@@ -46,7 +45,6 @@ export default function Page() {
                 <a className="introImg" href="404.html">
                   <img src="img/gt-san-pham.webp" width="245" height="245" alt="" />
                 </a>
-                <div className="introTitle fntPLight">Nguồn gốc, tác dụng</div>
                 <div className="introContent fntPLight">
                   Ultra super collagen HA là một sản phẩm có xuất sứ từ Hàn Quốc, được phân phối độc quyền tại Việt Nam bởi Skin Rosemary. Sản phẩm có tác dụng kết hợp 3
                   in 1 bao gồm B.A.P - Canula - Mesotherapy hứa hẹn sẽ tạo trending mới trong thị trường thẩm mỹ vào giai đoạn tới đây.
@@ -67,7 +65,6 @@ export default function Page() {
                 <a className="introImg" href="404.html">
                   <img src="img/gt-doi-tac.webp" width="245" height="245" alt="" />
                 </a>
-                <div className="introTitle fntPLight">Giới thiệu đối tác: TMV, bác sĩ,...</div>
                 <div className="introContent fntPLight">
                   Skin Rosemary được đánh giá là một Công ty năng động, có nhiều tiềm năng và sở hữu đội chuyên gia giỏi về chuyên môn. Đó cũng chính là lý do mà các thẩm
                   mỹ, bệnh viện y khoa lựa chọn làm đối tác cùng Skin Rosemary
@@ -88,7 +85,6 @@ export default function Page() {
                 <a className="introImg" href="404.html">
                   <img src="img/gt-hinh-anh.webp" width="245" height="245" alt="" />
                 </a>
-                <div className="introTitle fntPLight">Các video, hình ảnh ký kết, ...</div>
                 <div className="introContent fntPLight">Các hoạt động ký kết, chuyển giao của công ty được diễn ra thường xuyên tại các viện thẩm mỹ lớn.</div>
               </div>
             </div>
@@ -106,7 +102,6 @@ export default function Page() {
                 <a className="introImg" href="404.html">
                   <img src="img/gt-dao-tao.webp" width="245" height="245" alt="" />
                 </a>
-                <div className="introTitle fntPLight">Hoạt động đào tạo</div>
                 <div className="introContent fntPLight">Skin Rosemary được đánh giá là một Công ty năng động, có nhiều tiềm năng và sở hữu đội chuyên gia giỏi về chuyên môn. Đó cũng chính là lý do mà các thẩm mỹ, bệnh viện y khoa lựa chọn làm đối tác cùng Skin Rosemary</div>
               </div>
             </div>

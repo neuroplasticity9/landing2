@@ -14,6 +14,7 @@ let swiper = new Swiper('.mySwiper', {
     delay: 2500,
     disableOnInteraction: false
   },
+  loop: true,
   pagination: {
     el: '.swiper-pagination',
     clickable: true
@@ -23,6 +24,7 @@ let swiper = new Swiper('.mySwiper', {
 let swiper2 = new Swiper('.mySwiper2', {
   spaceBetween: 30,
   centeredSlides: true,
+  loop: true,
   pagination: {
     el: '.swiper-pagination2',
     clickable: true
@@ -36,6 +38,7 @@ let swiper2 = new Swiper('.mySwiper2', {
 let swiper3 = new Swiper('.mySwiper3', {
   spaceBetween: 30,
   centeredSlides: true,
+  loop: true,
   pagination: {
     el: '.swiper-pagination2',
     clickable: true
@@ -44,4 +47,14 @@ let swiper3 = new Swiper('.mySwiper3', {
     nextEl: '.swpBtnnext3',
     prevEl: '.swpBtnprev3'
   }
+});
+
+let swiper4 = new Swiper('.mySwiper4', {
+  slidesPerView: 4,
+   autoplay: {
+     delay: 2500,
+     disableOnInteraction: false
+   },
+  loop: true,
+  spaceBetween: 30,
 });
