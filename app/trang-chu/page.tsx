@@ -3,6 +3,25 @@
 import Script from 'next/script';
 import { MainSlideCp } from '../../components/mainslide';
 import { TrainBoxCp } from '../../components/trainbox';
+import { FeedBackCp } from '@/components/feedback';
+
+const dataFeedback = [
+  {
+    img: 'img/feedback-1.webp',
+    name: 'NGUYỄN KHÁNH LINH',
+    text: 'Mình cảm thấy rất tin tưởng Skin Rosemary, cảm giác làn da căng bóng, mịn màng hẳn chỉ sau 1 lần trải nghiệm. Thực sự rất tuyệt vời.',
+  },
+  {
+    img: 'img/feedback-2.webp',
+    name: 'TRẦN LAN PHƯƠNG',
+    text: 'Đây là lần đầu tiên tôi sử dụng 1 sản phẩm mà có nhiều tác dụng và đặc biệt không gây đau đớn gì cả. Cảm ơn đội ngũ kĩ thuật của Skin Rosemary đã tư vấn và nhiệt tình chăm sóc mình nhé.',
+  },
+  {
+    img: 'img/feedback-3.webp',
+    name: 'LÊ THỊ LOAN',
+    text: 'Sản phẩm của Skin Rosemary đã đáp đứng các tiêu chí mà tôi đưa ra: Căng da, nâng cơ, tác dụng ngay sau khi sử dụng, không gây đau đớn và giá cả rất phù hợp. Tôi sẽ vẫn ủng hộ Skin Rosemary lâu dài.',
+  },
+];
 
 export default function Home() {
   return (
@@ -242,44 +261,9 @@ export default function Home() {
               <h2 className="area3Title fntPBold">Phản hồi khách hàng</h2>
             </header>
             <div className="feedbackBox">
-              <div className="feedbackItem">
-                <img className="feedbackImg" src="img/feedback-1.webp" width="84" height="84" alt="" />
-                <div className="feedBackCustomer fntPBold">NGUYỄN KHÁNH LINH</div>
-                <div className="productBorder">
-                  <span></span>
-                  <img src="img/iconRo1.png" alt="" width="20" height="20" />
-                  <span></span>
-                </div>
-                <div className="feedbackText">
-                  Mình cảm thấy rất tin tưởng Skin Rosemary, cảm giác làn da căng bóng, mịn màng hẳn chỉ sau 1 lần trải nghiệm. Thực sự rất tuyệt vời.
-                </div>
-              </div>
-              <div className="feedbackItem">
-                <img className="feedbackImg" src="img/feedback-2.webp" width="84" height="84" alt="" />
-                <div className="feedBackCustomer fntPBold">TRẦN LAN PHƯƠNG</div>
-                <div className="productBorder">
-                  <span></span>
-                  <img src="img/iconRo1.png" alt="" width="20" height="20" />
-                  <span></span>
-                </div>
-                <div className="feedbackText">
-                  Đây là lần đầu tiên tôi sử dụng 1 sản phẩm mà có nhiều tác dụng và đặc biệt không gây đau đớn gì cả. Cảm ơn đội ngũ kĩ thuật của Skin Rosemary đã tư vấn
-                  và nhiệt tình chăm sóc mình nhé.
-                </div>
-              </div>
-              <div className="feedbackItem">
-                <img className="feedbackImg" src="img/feedback-3.webp" width="84" height="84" alt="" />
-                <div className="feedBackCustomer fntPBold">LÊ THỊ LOAN</div>
-                <div className="productBorder">
-                  <span></span>
-                  <img src="img/iconRo1.png" alt="" width="20" height="20" />
-                  <span></span>
-                </div>
-                <div className="feedbackText">
-                  Sản phẩm của Skin Rosemary đã đáp đứng các tiêu chí mà tôi đưa ra: Căng da, nâng cơ, tác dụng ngay sau khi sử dụng, không gây đau đớn và giá cả rất phù
-                  hợp. Tôi sẽ vẫn ủng hộ Skin Rosemary lâu dài.
-                </div>
-              </div>
+              {dataFeedback.map((item, index) => {
+                return <FeedBackCp key={index} img={item.img} name={item.name} text={item.text} />
+              })}              
             </div>
           </div>
         </section>

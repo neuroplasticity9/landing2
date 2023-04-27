@@ -395,7 +395,7 @@ body {
 }
 
 .feedbackImg {
-  @apply border-[#515254] border-[2px] bg-white p-[8px] absolute top-[-41px] left-[calc(50%-41px)] object-cover object-top;
+  @apply border-[#515254] border-[2px] bg-white p-[8px] absolute top-[-41px] left-[calc(50%-41px)] object-cover object-top w-[64px] h-[64px];
 }
 .feedbackText {
   @apply text-justify;
