@@ -670,5 +670,23 @@ body {
 
 /*** content detail page ***/
 .newContentDetail{
-  @apply text-[12px];
+  @apply text-[20px] py-5;
+}
+.newsRelated {
+  @apply w-full;
+}
+.newsRelatedBox {
+  @apply w-full;
+  li {
+      @apply w-full flex items-center;
+    a {
+    @apply flex py-2 border-b-[1px] justify-center;
+    &:hover {
+      @apply text-[#b33d4a];
+    }
+    span{
+      @apply pl-5;
+    }
+  }
+  }
 }

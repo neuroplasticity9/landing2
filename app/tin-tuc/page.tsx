@@ -49,7 +49,7 @@ export default function Page() {
             <h1 className="titlePage">TIN TỨC SỰ KIỆN</h1>
             <section className="newList">
               {data.map((item) => (
-                <NewItemCp title={item.title} img={item.img} content={item.content} link={'/tin-tuc/chi-tiet.html'} />
+                <NewItemCp title={item.title} img={item.img} content={item.content} link={'/tin-tuc-chi-tiet.html'} />
               ))}
             </section>
 
