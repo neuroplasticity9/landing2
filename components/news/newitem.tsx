@@ -6,12 +6,12 @@ export function NewItemCp(props: { title: string; content: string; img: string }
         <img src={props.img} width="570" height="315" alt={props.title} />
       </a>
       <div className="newg_info">
-        <h3 className="newg_title">
+        <h3 className="newg_title fntPBold">
           <a href="#" title={props.title}>
             {props.title}
           </a>
         </h3>
-        <div className="newg_content">{props.content}</div>
+        <div className="newg_content fntPRegular">{props.content}</div>
       </div>
     </div>
   );

@@ -4,6 +4,7 @@
 import Script from 'next/script';
 import { MainSlideCp } from '../../components/mainslide';
 import { NewItemCp } from '@/components/news/newitem';
+import { PaginationCp } from '@/components/pagination';
 
 const data = [
   {
@@ -52,19 +53,10 @@ export default function Page() {
               ))}
             </section>
 
-            <div className="pagination">
-              <nav>
-                <a href="#">1</a>
-                <a href="#">2</a>
-                <a href="#">3</a>
-                <a href="#">4</a>
-              </nav>
-            </div>
+            <PaginationCp />
           </div>
         </section>
       </main>
-      <Script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></Script>
-      <Script src="js/slide.js"></Script>
     </>
   );
 }
