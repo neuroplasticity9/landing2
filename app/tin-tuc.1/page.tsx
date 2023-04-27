@@ -2,7 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable @next/next/no-sync-scripts */
 import Script from 'next/script';
-import { MainSlideCp } from '../../components/mainslide';
+import { MainSlideCp } from '../../../components/mainslide';
 import { NewItemCp } from '@/components/news/newitem';
 import { PaginationCp } from '@/components/pagination';
 
@@ -49,7 +49,7 @@ export default function Page() {
             <h1 className="titlePage">TIN TỨC SỰ KIỆN</h1>
             <section className="newList">
               {data.map((item) => (
-                <NewItemCp title={item.title} img={item.img} content={item.content} link={'/tin-tuc/chi-tiet.html'} />
+                <NewItemCp title={item.title} img={item.img} content={item.content} />
               ))}
             </section>
 

@@ -39,6 +39,10 @@ export function HeaderCp() {
             <span id="navContact" className="navLink">
               Liện hệ
             </span>
+            <span className="navSpe">|</span>
+            <a className="navLink" href="dao-tao.html">
+              Đào tạo
+            </a>
           </nav>
         </section>
         {/* chỗ này là home page facebook */}
