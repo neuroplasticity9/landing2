@@ -32,13 +32,13 @@ export function HeaderCp() {
               Sản phẩm
             </a>
             <span className="navSpe">|</span>
-            <a className="navLink" href="404.html">
+            <a className="navLink" href="doi-tac.html">
               Đối tác
             </a>
             <span className="navSpe">|</span>
-            <a id="navContact" className="navLink" href="404.html">
+            <span id="navContact" className="navLink">
               Liện hệ
-            </a>
+            </span>
           </nav>
         </section>
         {/* chỗ này là home page facebook */}

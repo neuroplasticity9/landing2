@@ -168,7 +168,7 @@ body {
   @apply hidden xl:flex items-center justify-between fontATM text-[17px] text-[#686868] flex-wrap xl:flex-nowrap xl:ml-0 group-[.activeMn]:flex;
 }
 .navLink {
-  @apply xl:h-[100%] xl:border-none flex uppercase text-[#686868] w-full xl:w-auto h-[53px] items-center border-t-[1px] pl-[30px] xl:pl-0;
+  @apply xl:h-[100%] xl:border-none flex uppercase text-[#686868] w-full xl:w-auto h-[53px] items-center border-t-[1px] pl-[30px] xl:pl-0 cursor-pointer;
   &:hover{
     @apply text-[#c44b57];
   }
@@ -382,7 +382,7 @@ body {
 }
 
 .feedbackItem{
-  @apply w-[376px] max-xl:w-[320px] pt-[79px] pb-[30px] px-[20px] border-[#515254] border-[2px] relative text-center max-xl:mb-[80px];
+  @apply w-[376px] max-xl:w-[320px] pt-[79px] pb-[30px] px-[20px] border-[#515254] border-[2px] relative text-center mb-[80px];
   &:last-child{
     @apply max-md:ml-0 #{!important};
   }
@@ -398,7 +398,10 @@ body {
 }
 
 .feedbackImg {
-  @apply border-[#515254] border-[2px] bg-white p-[8px] absolute top-[-41px] left-[calc(50%-41px)] object-cover object-top w-[64px] h-[64px];
+  @apply border-[#515254] border-[2px] bg-white p-[8px] absolute top-[-41px] left-[calc(50%-41px)] object-cover object-top w-[90px] h-[90px];
+}
+.feedBackCustomer {
+  @apply text-[#b33c4a] uppercase text-[20px];
 }
 .feedbackText {
   @apply text-justify;
@@ -651,4 +654,16 @@ body {
 }
 .pro_new {
   @apply absolute left-[-3px] top-[41px];
+}
+
+/*** customer page ***/
+
+.customerPage {
+  @apply w-full flex justify-center items-center flex-wrap py-[80px] bg-[url('/img/bg-customer.webp')];
+}
+.customerPageBox {
+  @apply w-[1300px] max-xl:w-full max-xl:px-5 flex justify-between flex-wrap max-xl:justify-center;
+  .feedbackBox {
+    @apply pt-[80px];
+  }
 }
