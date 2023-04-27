@@ -68,7 +68,6 @@ body {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  @apply hover:saturate-150;
 }
 
 .bgType1 {
@@ -167,6 +166,9 @@ body {
 }
 .navLink {
   @apply xl:h-[100%] xl:border-none flex uppercase text-[#686868] w-full xl:w-auto h-[53px] items-center border-t-[1px] pl-[30px] xl:pl-0;
+  &:hover{
+    @apply text-[#c44b57];
+  }
 }
 .navSpe{
   @apply hidden xl:inline;

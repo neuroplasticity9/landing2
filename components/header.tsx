@@ -28,7 +28,7 @@ export function HeaderCp() {
               Về chúng tôi
             </a>
             <span className="navSpe">|</span>
-            <a className="navLink" href="404.html">
+            <a className="navLink" href="san-pham.html">
               Sản phẩm
             </a>
             <span className="navSpe">|</span>
