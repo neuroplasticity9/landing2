@@ -2,7 +2,7 @@
 export function FooterCp() {
   return (
     <footer className="footer">
-      <div className="footerBox">
+      <div className="footerBox" id="contactID">
         <a className="footerLogo group" href="404.html" title="Trang chu">
           <img src="img/logoFooter.png" width="310" height="200" alt="" />
         </a>

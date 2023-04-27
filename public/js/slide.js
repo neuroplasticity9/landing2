@@ -72,3 +72,9 @@ let swiper4 = new Swiper('.mySwiper4', {
     },
   },
 });
+
+
+function clickFooter(){
+  document.getElementById("contactID").scrollIntoView({behavior: "smooth"});
+}
+document.getElementById("navContact").addEventListener("click", clickFooter);

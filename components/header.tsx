@@ -36,17 +36,17 @@ export function HeaderCp() {
               Đối tác
             </a>
             <span className="navSpe">|</span>
-            <a className="navLink" href="404.html">
+            <a id="navContact" className="navLink" href="404.html">
               Liện hệ
             </a>
           </nav>
         </section>
         {/* chỗ này là home page facebook */}
         <div className="mIconTop">
-          <a href="" title="Homepage">
+          <a href="/" title="Homepage">
             <img src="img/icon-home.png" alt="Homepage"  />
           </a>
-          <a href="" title="My Facebook">
+          <a href="https://www.facebook.com/skinrosemery.vietnam" title="My Facebook">
             <img src="img/icon-fb.png" alt="Facebook" />
           </a>
         </div>
